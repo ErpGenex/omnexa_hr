@@ -1,0 +1,232 @@
+Absent,Absent
+Accounting,المحاسبة
+Accrual journal entry,Accrual يومية قيد
+Advance Amount,Advance مبلغ
+Advance Date,Advance تاريخ
+Allowances,Allowances
+Amount,مبلغ
+Applications,طلبات
+Appraiser,Appraiser
+Approval,موافقة
+Approval and Justification,موافقة و Justification
+Approval and Reason,موافقة و Reason
+Approver,Approver
+Attendance,Attendance
+Attendance & Payroll,Attendance & Payroll
+Attendance Date,Attendance تاريخ
+Attendance Source,Attendance Source
+Attendance Window,Attendance Window
+Basic Salary,Basic Salary
+Bonus,Bonus
+Branch,الفرع
+Branch is required to post payroll accrual journal.,فرع is required إلى post payroll accrual يومية.
+Candidate Name,Candidate اسم
+Carry Forward Days,Carry Forward Days
+Certificate URL,Certificate URL
+Check In,فحص In
+Check Out,فحص Out
+Company,الشركة
+Company & branch,شركة & فرع
+Company is required,شركة is required
+Company is required.,شركة is required.
+Competency Score,Competency درجة
+Completion,Completion
+Completion Score,Completion درجة
+Compliance and Notes,امتثال و Notes
+Component,Component
+Controls,Controls
+Conversion Rate,Conversion معدل
+Core Transactions: Employee,أساسي Transactions: الموظف
+Core Transactions: HR Attendance,أساسي Transactions: الموارد البشرية Attendance
+Core Transactions: HR Leave Application,أساسي Transactions: الموارد البشرية Leave طلب
+Core Transactions: HR Payroll Entry,أساسي Transactions: الموارد البشرية Payroll قيد
+Core Transactions: HR Recruitment Request,أساسي Transactions: الموارد البشرية Recruitment طلب
+Cost,تكلفة
+Cost and Artifacts,تكلفة و Artifacts
+Create HR Payroll Company Settings for company {0} before submitting a payroll run.,Create الموارد البشرية Payroll شركة إعدادات لـ شركة { 0 } before submitting a payroll run.
+Currency,Currency
+Date,التاريخ
+Deductions,Deductions
+Default Branch (JE posting),افتراضي فرع (JE posting)
+Default cost center,افتراضي تكلفة center
+Department,Department
+Description,الوصف
+Designation,Designation
+Details,التفاصيل
+Docstatus,Docstatus
+Earnings and Deductions,Earnings و Deductions
+Employee,الموظف
+Employee belongs to a different company.,موظف belongs إلى a different شركة.
+Employee Name,موظف اسم
+Employee not found.,موظف not found.
+Employees,Employees
+Employer contrib.,Employer contrib.
+Employer contributions,Employer contributions
+Employer Contributions Expense (IAS 19),Employer Contributions مصروف (IAS 19)
+End Date,تاريخ الانتهاء
+End-of-Service Provision (BS),نهاية - of - خدمة Provision (BS)
+Entitlement Policy,Entitlement سياسة
+EOS,EOS
+Evaluation Notes,Evaluation Notes
+Expense,مصروف
+Expense (P&L),مصروف (P & L)
+Expense Date,مصروف تاريخ
+Expense total,مصروف إجمالي
+Expense total (P&L),مصروف إجمالي (P & L)
+Expense Type,مصروف نوع
+Feedback,Feedback
+Filters,Filters
+From,From
+Further,Further
+GL Account,GL حساب
+GL mapping (IAS 19 / payroll accrual),GL mapping (IAS 19 payroll accrual)
+GL Override,GL Override
+GL posting date,GL posting تاريخ
+Goals Score,Goals درجة
+Gratuity (estimated),Gratuity (estimated)
+Gross pay,Gross pay
+Gross Pay,Gross Pay
+Headcount,Headcount
+Hiring Manager,Hiring مدير
+HR,HR
+HR Attendance,الموارد البشرية Attendance
+HR Attendance Mix,الموارد البشرية Attendance Mix
+HR Attendance Summary,الموارد البشرية Attendance ملخص
+HR Employee Appraisal,الموارد البشرية موظف Appraisal
+HR End of Service Settlement,الموارد البشرية نهاية of خدمة Settlement
+HR Expense Claim,الموارد البشرية مصروف Claim
+HR Headcount,الموارد البشرية Headcount
+HR Interview,الموارد البشرية Interview
+HR Leave Application,الموارد البشرية Leave طلب
+HR Leave Application Summary,الموارد البشرية Leave طلب ملخص
+HR Leave Type,الموارد البشرية Leave نوع
+HR Payroll Company Settings,الموارد البشرية Payroll شركة إعدادات
+HR Payroll Entry,الموارد البشرية Payroll قيد
+HR Payroll Run,الموارد البشرية Payroll Run
+HR Payroll Run Line,الموارد البشرية Payroll Run Line
+HR Payroll Summary,الموارد البشرية Payroll ملخص
+HR Recruitment Pipeline,الموارد البشرية Recruitment Pipeline
+HR Recruitment Request,الموارد البشرية Recruitment طلب
+HR Recruitment Request Mix,الموارد البشرية Recruitment طلب Mix
+HR Salary Advance,الموارد البشرية Salary Advance
+HR Salary Slip,الموارد البشرية Salary Slip
+HR Salary Slip Line,الموارد البشرية Salary Slip Line
+HR Salary Slip Register,الموارد البشرية Salary Slip Register
+HR Settings,الموارد البشرية إعدادات
+HR Training Record,الموارد البشرية Training سجل
+HR Training Summary,الموارد البشرية Training ملخص
+hr-analytics-dashboard,الموارد البشرية - تحليلات - لوحة معلومات
+hr-customer-portal,الموارد البشرية - عميل - بوابة
+hr-executive-dashboard,الموارد البشرية - تنفيذي - لوحة معلومات
+hr-finance-desk,الموارد البشرية - مالية - desk
+hr-operations-desk,الموارد البشرية - عمليات - desk
+Human Resources Workcenter,Human Resources Workcenter
+Interview Date,Interview تاريخ
+Interview Round,Interview Round
+Interviewer,Interviewer
+Justification,Justification
+Last basic salary (monthly),Last basic salary (monthly)
+Last basic salary is required.,Last basic salary is required.
+Leave Policy,Leave سياسة
+Leave Type,Leave نوع
+Leave Window,Leave Window
+Leaves,Leaves
+Lines,Lines
+Load omnexa_core vertical portal desk,Load omnexa أساسي vertical بوابة desk
+Load omnexa_core vertical workcenter kit,Load omnexa أساسي vertical workcenter kit
+Masters: HR Leave Type,Masters: الموارد البشرية Leave نوع
+Masters: Leave Policy,Masters: Leave سياسة
+Max Days Per Year,أقصى Days Per Year
+Monthly recovery cap,Monthly recovery cap
+More,More
+Name,الاسم
+Net pay,Net pay
+Net Pay,Net Pay
+Net Result,Net Result
+No Present/Remote attendance found for this employee in the pay period. Enable Skip attendance gate only if authorised.,No Present Remote attendance found لـ this موظف in the pay period. Enable Skip attendance gate only if authorised.
+Notes,Notes
+Omnexa Hr,Omnexa الموارد البشرية
+On Leave,On Leave
+Open Positions,مفتوح Positions
+Outstanding,Outstanding
+Overall Score,Overall درجة
+Overview,نظرة عامة
+Owner,Owner
+Paid,مدفوع
+Pay period,Pay period
+Payment Entry,دفعة قيد
+Payment Reference,دفعة Reference
+Payroll accrual — period {0} to {1},Payroll accrual — period { 0 } إلى { 1 }
+Payroll Entry,Payroll قيد
+Payroll Liability (net + deductions payable),Payroll Liability (net + deductions payable)
+Payroll Month,Payroll Month
+Payroll period,Payroll period
+Payroll Period,Payroll Period
+Payroll Run,Payroll Run
+Payroll Settings,Payroll إعدادات
+Payroll Tax / Statutory Payable,Payroll Tax قانوني Payable
+Period (YYYY-MM),Period (YYYY - MM)
+Period End,Period نهاية
+Period End cannot be before Period Start.,Period نهاية cannot be before Period بداية.
+Period Start,Period بداية
+Planning,Planning
+Policies,Policies
+Posting,Posting
+Posting Date,Posting تاريخ
+Present,Present
+Productive attendance %,Productive attendance%
+Provider,Provider
+Rating Band,Rating Band
+Reason,Reason
+Recommendation,Recommendation
+Records,Records
+Recovered cannot exceed advance amount.,Recovered cannot exceed advance مبلغ.
+Recovered to Date,Recovered إلى تاريخ
+Recruitment,Recruitment
+Recruitment Request,Recruitment طلب
+Remarks,Remarks
+Remote,Remote
+Request Date,طلب تاريخ
+Requests,طلبات
+Review Period,Review Period
+Row {0}: Salary Slip company mismatch.,Row { 0 }: Salary Slip شركة mismatch.
+Row {0}: Salary Slip must be submitted.,Row { 0 }: Salary Slip must be submitted.
+Row {0}: Salary Slip not found.,Row { 0 }: Salary Slip not found.
+Salary & Cash Benefits Expense,Salary & نقدية Benefits مصروف
+Salary Advance,Salary Advance
+Salary Advance Clearing,Salary Advance Clearing
+Salary components,Salary components
+Salary expense and payroll liability GL accounts are required.,Salary مصروف و payroll liability GL حسابات are required.
+Salary Slip,Salary Slip
+Salary slips,Salary slips
+Schedule,Schedule
+Schedule and Outcome,Schedule و Outcome
+Scheme,Scheme
+Score,درجة
+Scores,Scores
+Service days,خدمة days
+Skip attendance gate,Skip attendance gate
+Start Date,بداية تاريخ
+Status,الحالة
+Status Bar,حالة Bar
+Supporting Processes: HR Interview,Supporting Processes: الموارد البشرية Interview
+Supporting Processes: HR Training Record,Supporting Processes: الموارد البشرية Training سجل
+Target Hire Date,Target Hire تاريخ
+Taxable (employee),Taxable (موظف)
+Termination cannot be before joining.,Termination cannot be before joining.
+Termination Date,Termination تاريخ
+To,إلى
+Total Cost,إجمالي تكلفة
+Total Days,إجمالي Days
+Total deductions,إجمالي deductions
+Total payroll expense must be greater than zero.,إجمالي payroll مصروف must be greater than zero.
+Total Records,إجمالي Records
+Totals,Totals
+Training,Training
+Training Title,Training عنوان
+Type,النوع
+Workforce overview,Workforce نظرة عامة
+Working Hours,Working Hours
+{0}: GL Account belongs to another company.,{ 0 }: GL حساب belongs إلى another شركة.
+📊 Reports,📊 تقارير
+📌 Operations,📌 عمليات

@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-workcenter",
+	"page_name": "hr-workcenter",
+	"standard": "Yes",
+	"title": "Human Resources Workcenter",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "Company Admin"
+		}
+	]
+}

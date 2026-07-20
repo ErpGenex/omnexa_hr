@@ -1,0 +1,135 @@
+{
+	"actions": [],
+	"allow_import": 1,
+	"autoname": "hash",
+	"creation": "2026-04-15 01:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"company",
+		"leave_type_name",
+		"tab_break_1",
+		"policy_section",
+		"is_paid",
+		"max_days_per_year",
+		"carry_forward_days",
+		"notes",
+		"owner_user"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "leave_type_name",
+			"fieldtype": "Data",
+			"in_list_view": 1,
+			"label": "Leave Type",
+			"reqd": 1
+		},
+		{
+			"fieldname": "policy_section",
+			"fieldtype": "Section Break",
+			"label": "Entitlement Policy"
+		},
+		{
+			"default": "1",
+			"fieldname": "is_paid",
+			"fieldtype": "Check",
+			"in_list_view": 1,
+			"label": "Paid"
+		},
+		{
+			"default": "0",
+			"fieldname": "max_days_per_year",
+			"fieldtype": "Int",
+			"label": "Max Days Per Year"
+		},
+		{
+			"default": "0",
+			"fieldname": "carry_forward_days",
+			"fieldtype": "Int",
+			"label": "Carry Forward Days"
+		},
+		{
+			"fieldname": "notes",
+			"fieldtype": "Small Text",
+			"label": "Notes"
+		},
+		{
+			"fieldname": "owner_user",
+			"fieldtype": "Link",
+			"label": "Owner",
+			"options": "User"
+		}
+	],
+	"grid_page_length": 50,
+	"index_web_pages_for_search": 1,
+	"is_submittable": 0,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Leave Type",
+	"naming_rule": "Random",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"delete": 0,
+			"email": 0,
+			"export": 0,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "Accounts Manager",
+			"share": 0,
+			"write": 1
+		},
+		{
+			"create": 0,
+			"delete": 0,
+			"email": 0,
+			"export": 0,
+			"print": 1,
+			"read": 1,
+			"report": 0,
+			"role": "Accounts User",
+			"share": 0,
+			"write": 0
+		}
+	],
+	"row_format": "Dynamic",
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}

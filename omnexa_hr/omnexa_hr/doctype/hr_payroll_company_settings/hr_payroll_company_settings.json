@@ -1,0 +1,141 @@
+{
+	"actions": [],
+	"allow_rename": 0,
+	"autoname": "field:company",
+	"creation": "2026-04-30 12:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"company",
+		"default_branch",
+		"tab_break_1",
+		"gl_section",
+		"salary_expense_account",
+		"employer_benefits_expense_account",
+		"column_break_gl_1",
+		"payroll_liability_account",
+		"payroll_tax_payable_account",
+		"salary_advance_clearing_account",
+		"eos_provision_account",
+		"tab_break_2",
+		"notes_section",
+		"notes"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "tab_break_2",
+			"fieldtype": "Tab Break",
+			"label": "Further"
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1,
+			"unique": 1
+		},
+		{
+			"fieldname": "default_branch",
+			"fieldtype": "Link",
+			"label": "Default Branch (JE posting)",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "gl_section",
+			"fieldtype": "Section Break",
+			"label": "GL mapping (IAS 19 / payroll accrual)"
+		},
+		{
+			"fieldname": "salary_expense_account",
+			"fieldtype": "Link",
+			"label": "Salary & Cash Benefits Expense",
+			"options": "GL Account"
+		},
+		{
+			"fieldname": "employer_benefits_expense_account",
+			"fieldtype": "Link",
+			"label": "Employer Contributions Expense (IAS 19)",
+			"options": "GL Account"
+		},
+		{
+			"fieldname": "column_break_gl_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "payroll_liability_account",
+			"fieldtype": "Link",
+			"label": "Payroll Liability (net + deductions payable)",
+			"options": "GL Account"
+		},
+		{
+			"fieldname": "payroll_tax_payable_account",
+			"fieldtype": "Link",
+			"label": "Payroll Tax / Statutory Payable",
+			"options": "GL Account"
+		},
+		{
+			"fieldname": "salary_advance_clearing_account",
+			"fieldtype": "Link",
+			"label": "Salary Advance Clearing",
+			"options": "GL Account"
+		},
+		{
+			"fieldname": "eos_provision_account",
+			"fieldtype": "Link",
+			"label": "End-of-Service Provision (BS)",
+			"options": "GL Account"
+		},
+		{
+			"fieldname": "notes_section",
+			"fieldtype": "Section Break",
+			"label": "Notes"
+		},
+		{
+			"fieldname": "notes",
+			"fieldtype": "Small Text",
+			"label": "Notes"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Payroll Company Settings",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"role": "System Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 1,
+			"export": 1
+		},
+		{
+			"role": "Accounts Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 0,
+			"export": 1
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}

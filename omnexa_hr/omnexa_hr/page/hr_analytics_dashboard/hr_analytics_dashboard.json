@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-analytics-dashboard",
+	"page_name": "hr-analytics-dashboard",
+	"standard": "Yes",
+	"title": "Analytics Dashboard",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "Company Admin"
+		}
+	]
+}

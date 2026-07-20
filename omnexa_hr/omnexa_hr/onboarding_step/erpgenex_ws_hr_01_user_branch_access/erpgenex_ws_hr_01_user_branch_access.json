@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Create",
+ "creation": "2026-04-20 00:31:41.625680",
+ "description": "Create or review your first **User Branch Access** record from this workspace.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-04-22 16:43:25.722719",
+ "modified_by": "Administrator",
+ "name": "ERPGENEX-WS-hr-01-user_branch_access",
+ "owner": "Administrator",
+ "reference_document": "User Branch Access",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Get started with User Branch Access",
+ "validate_action": 1
+}

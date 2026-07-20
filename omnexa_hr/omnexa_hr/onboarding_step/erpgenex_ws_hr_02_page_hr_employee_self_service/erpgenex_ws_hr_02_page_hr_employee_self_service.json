@@ -1,0 +1,21 @@
+{
+ "action": "Go to Page",
+ "action_label": "Open",
+ "creation": "2026-06-13 03:17:09.152214",
+ "description": "Jump to the **Employee Self-Service** page.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-07-11 14:37:29.524489",
+ "modified_by": "Administrator",
+ "name": "ERPGENEX-WS-hr-02-page-hr_employee_self_service",
+ "owner": "Administrator",
+ "path": "hr-employee-self-service",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Open Employee Self-Service",
+ "validate_action": 1
+}

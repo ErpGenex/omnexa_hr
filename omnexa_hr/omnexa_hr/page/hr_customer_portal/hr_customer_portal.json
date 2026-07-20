@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-customer-portal",
+	"page_name": "hr-customer-portal",
+	"standard": "Yes",
+	"title": "Customer Portal",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "Company Admin"
+		}
+	]
+}

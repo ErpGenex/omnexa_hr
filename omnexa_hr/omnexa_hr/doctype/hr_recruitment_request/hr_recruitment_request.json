@@ -1,0 +1,154 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-14 23:30:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"company",
+		"department",
+		"designation",
+		"tab_break_1",
+		"planning_section",
+		"open_positions",
+		"request_date",
+		"column_break_omnexa_1",
+		"target_hire_date",
+		"status",
+		"tab_break_2",
+		"approval_section",
+		"hiring_manager",
+		"justification",
+		"owner_user"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "tab_break_2",
+			"fieldtype": "Tab Break",
+			"label": "Further"
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "department",
+			"fieldtype": "Data",
+			"label": "Department",
+			"reqd": 1
+		},
+		{
+			"fieldname": "designation",
+			"fieldtype": "Data",
+			"label": "Designation",
+			"reqd": 1
+		},
+		{
+			"fieldname": "planning_section",
+			"fieldtype": "Section Break",
+			"label": "Planning"
+		},
+		{
+			"fieldname": "open_positions",
+			"fieldtype": "Int",
+			"label": "Open Positions",
+			"default": "1"
+		},
+		{
+			"fieldname": "request_date",
+			"fieldtype": "Date",
+			"label": "Request Date",
+			"reqd": 1
+		},
+		{
+			"fieldname": "target_hire_date",
+			"fieldtype": "Date",
+			"label": "Target Hire Date"
+		},
+		{
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"label": "Status",
+			"options": "Draft\nOpen\nIn Progress\nClosed",
+			"default": "Draft"
+		},
+		{
+			"fieldname": "approval_section",
+			"fieldtype": "Section Break",
+			"label": "Approval and Justification"
+		},
+		{
+			"fieldname": "hiring_manager",
+			"fieldtype": "Link",
+			"label": "Hiring Manager",
+			"options": "Employee"
+		},
+		{
+			"fieldname": "justification",
+			"fieldtype": "Small Text",
+			"label": "Justification"
+		},
+		{
+			"fieldname": "owner_user",
+			"fieldtype": "Link",
+			"label": "Owner",
+			"options": "User"
+		},
+		{
+			"fieldname": "column_break_omnexa_1",
+			"fieldtype": "Column Break"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Recruitment Request",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"role": "System Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 1,
+			"report": 1,
+			"export": 1
+		},
+		{
+			"role": "Accounts Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"report": 1
+		},
+		{
+			"role": "Accounts User",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"report": 1
+		}
+	],
+	"row_format": "Dynamic",
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}

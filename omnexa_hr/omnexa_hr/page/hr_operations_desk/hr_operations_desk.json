@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-operations-desk",
+	"page_name": "hr-operations-desk",
+	"standard": "Yes",
+	"title": "Operations Desk",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "Company Admin"
+		}
+	]
+}

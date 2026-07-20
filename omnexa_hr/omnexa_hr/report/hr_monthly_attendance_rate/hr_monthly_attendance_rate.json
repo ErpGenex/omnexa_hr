@@ -1,0 +1,21 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "doctype": "Report",
+ "filters": [
+  {"fieldname": "company", "fieldtype": "Link", "label": "Company", "options": "Company", "reqd": 1, "width": "180px"},
+  {"fieldname": "from_date", "fieldtype": "Date", "label": "From Date", "width": "140px"},
+  {"fieldname": "to_date", "fieldtype": "Date", "label": "To Date", "width": "140px"}
+ ],
+ "is_standard": "Yes",
+ "module": "Omnexa Hr",
+ "name": "HR Monthly Attendance Rate",
+ "ref_doctype": "HR Attendance",
+ "report_name": "HR Monthly Attendance Rate",
+ "report_type": "Script Report",
+ "roles": [
+  {"role": "System Manager"},
+  {"role": "Accounts Manager"},
+  {"role": "Accounts User"}
+ ]
+}

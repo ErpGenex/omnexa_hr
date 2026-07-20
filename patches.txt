@@ -1,0 +1,2 @@
+[post_model_sync]
+omnexa_hr.patches.v1_0.sync_hr_workspace_full

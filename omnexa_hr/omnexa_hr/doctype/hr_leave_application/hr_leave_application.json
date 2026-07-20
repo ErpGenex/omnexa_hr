@@ -1,0 +1,206 @@
+{
+	"actions": [],
+	"allow_import": 1,
+	"autoname": "hash",
+	"creation": "2026-04-15 01:02:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"employee",
+		"employee_name",
+		"column_break_omnexa_1",
+		"company",
+		"branch",
+		"tab_break_1",
+		"leave_section",
+		"leave_type",
+		"from_date",
+		"column_break_omnexa_2",
+		"to_date",
+		"total_days",
+		"tab_break_2",
+		"approval_section",
+		"approver",
+		"reason",
+		"column_break_omnexa_3",
+		"status",
+		"owner_user"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "tab_break_2",
+			"fieldtype": "Tab Break",
+			"label": "Further"
+		},
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Employee",
+			"options": "Employee",
+			"reqd": 1
+		},
+		{
+			"fieldname": "employee_name",
+			"fieldtype": "Data",
+			"label": "Employee Name",
+			"read_only": 1,
+			"fetch_from": "employee.employee_name"
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "leave_section",
+			"fieldtype": "Section Break",
+			"label": "Leave Window"
+		},
+		{
+			"fieldname": "leave_type",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Leave Type",
+			"options": "HR Leave Type",
+			"reqd": 1
+		},
+		{
+			"fieldname": "from_date",
+			"fieldtype": "Date",
+			"in_list_view": 1,
+			"label": "From",
+			"reqd": 1
+		},
+		{
+			"fieldname": "to_date",
+			"fieldtype": "Date",
+			"in_list_view": 1,
+			"label": "To",
+			"reqd": 1
+		},
+		{
+			"fieldname": "total_days",
+			"fieldtype": "Float",
+			"label": "Total Days",
+			"read_only": 1
+		},
+		{
+			"fieldname": "approval_section",
+			"fieldtype": "Section Break",
+			"label": "Approval and Reason"
+		},
+		{
+			"fieldname": "approver",
+			"fieldtype": "Link",
+			"label": "Approver",
+			"options": "User"
+		},
+		{
+			"fieldname": "reason",
+			"fieldtype": "Small Text",
+			"label": "Reason"
+		},
+		{
+			"default": "Draft",
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"in_list_view": 1,
+			"label": "Status",
+			"options": "Draft\nSubmitted\nApproved\nRejected\nCancelled",
+			"reqd": 1
+		},
+		{
+			"fieldname": "owner_user",
+			"fieldtype": "Link",
+			"label": "Owner",
+			"options": "User"
+		},
+		{
+			"fieldname": "column_break_omnexa_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "column_break_omnexa_2",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "column_break_omnexa_3",
+			"fieldtype": "Column Break"
+		}
+	],
+	"grid_page_length": 50,
+	"index_web_pages_for_search": 1,
+	"is_submittable": 0,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Leave Application",
+	"naming_rule": "Random",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"delete": 0,
+			"email": 0,
+			"export": 0,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "Accounts Manager",
+			"share": 0,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"delete": 0,
+			"email": 0,
+			"export": 0,
+			"print": 1,
+			"read": 1,
+			"report": 0,
+			"role": "Accounts User",
+			"share": 0,
+			"write": 1
+		}
+	],
+	"row_format": "Dynamic",
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}

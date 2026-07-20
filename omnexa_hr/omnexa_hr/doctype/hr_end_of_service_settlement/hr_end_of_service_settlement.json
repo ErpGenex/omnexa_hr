@@ -1,0 +1,140 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-30 12:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"employee",
+		"employee_name",
+		"company",
+		"branch",
+		"termination_date",
+		"tab_break_details",
+		"scheme",
+		"column_break_e1",
+		"last_basic_salary",
+		"service_days",
+		"gratuity_amount",
+		"remarks"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_details",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Employee",
+			"options": "Employee",
+			"reqd": 1
+		},
+		{
+			"fieldname": "employee_name",
+			"fieldtype": "Data",
+			"label": "Employee Name",
+			"read_only": 1,
+			"fetch_from": "employee.employee_name"
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "termination_date",
+			"fieldtype": "Date",
+			"label": "Termination Date",
+			"reqd": 1
+		},
+		{
+			"fieldname": "scheme",
+			"fieldtype": "Select",
+			"label": "Scheme",
+			"options": "GENERIC_LIMITED\nUAE_LIMITED\nUAE_UNLIMITED\nKSA_EMPLOYER_TERMINATION\nKSA_EMPLOYEE_RESIGNATION\nCUSTOM",
+			"default": "UAE_LIMITED"
+		},
+		{
+			"fieldname": "column_break_e1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "last_basic_salary",
+			"fieldtype": "Currency",
+			"label": "Last basic salary (monthly)",
+			"reqd": 1
+		},
+		{
+			"fieldname": "service_days",
+			"fieldtype": "Int",
+			"label": "Service days",
+			"read_only": 1
+		},
+		{
+			"fieldname": "gratuity_amount",
+			"fieldtype": "Currency",
+			"label": "Gratuity (estimated)",
+			"read_only": 1
+		},
+		{
+			"fieldname": "remarks",
+			"fieldtype": "Small Text",
+			"label": "Remarks"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR End of Service Settlement",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"role": "System Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 1,
+			"export": 1
+		},
+		{
+			"role": "Accounts Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 0,
+			"export": 1
+		},
+		{
+			"role": "Accounts User",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 0,
+			"export": 0
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}

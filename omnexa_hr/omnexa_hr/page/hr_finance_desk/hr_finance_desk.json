@@ -1,0 +1,16 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-finance-desk",
+	"page_name": "hr-finance-desk",
+	"standard": "Yes",
+	"title": "Finance Desk",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "Company Admin"
+		}
+	]
+}

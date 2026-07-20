@@ -1,0 +1,37 @@
+{
+  "actions": [],
+  "creation": "2026-04-30 12:00:00",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "component_label",
+    "component_type",
+    "amount",
+    "column_break_1",
+    "is_taxable",
+    "gl_account_override",
+    "remarks"
+  ],
+  "fields": [
+    {"fieldname": "component_label", "fieldtype": "Data", "in_list_view": 1, "label": "Component", "reqd": 1},
+    {"fieldname": "component_type", "fieldtype": "Select", "in_list_view": 1, "label": "Type", "options": "Earning\nDeduction\nEmployer Contribution", "reqd": 1, "default": "Earning"},
+    {"fieldname": "amount", "fieldtype": "Currency", "in_list_view": 1, "label": "Amount", "reqd": 1},
+    {"fieldname": "column_break_1", "fieldtype": "Column Break"},
+    {"fieldname": "is_taxable", "fieldtype": "Check", "label": "Taxable (employee)", "default": "1"},
+    {"fieldname": "gl_account_override", "fieldtype": "Link", "label": "GL Override", "options": "GL Account"},
+    {"fieldname": "remarks", "fieldtype": "Small Text", "label": "Remarks"}
+  ],
+  "istable": 1,
+  "links": [],
+  "modified": "2026-04-30 12:00:00",
+  "modified_by": "Administrator",
+  "module": "Omnexa Hr",
+  "name": "HR Salary Slip Line",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "idx",
+  "sort_order": "ASC",
+  "states": [],
+  "track_changes": 0
+}

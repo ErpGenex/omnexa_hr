@@ -1,0 +1,140 @@
+{
+	"actions": [],
+	"allow_import": 1,
+	"autoname": "format:APR-{YYYY}-{#####}",
+	"creation": "2026-06-02 00:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"employee",
+		"employee_name",
+		"column_break_omnexa_1",
+		"company",
+		"branch",
+		"tab_break_1",
+		"review_section",
+		"review_period_start",
+		"review_period_end",
+		"column_break_omnexa_2",
+		"appraiser",
+		"status",
+		"tab_break_2",
+		"scores_section",
+		"goals_score",
+		"competency_score",
+		"column_break_omnexa_3",
+		"overall_score",
+		"rating_band",
+		"feedback"
+	],
+	"fields": [
+		{"fieldname": "tab_break_overview", "fieldtype": "Tab Break", "label": "Overview"},
+		{"fieldname": "tab_break_1", "fieldtype": "Tab Break", "label": "Details"},
+		{"fieldname": "tab_break_2", "fieldtype": "Tab Break", "label": "Further"},
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Employee",
+			"options": "Employee",
+			"reqd": 1
+		},
+		{
+			"fieldname": "employee_name",
+			"fieldtype": "Data",
+			"fetch_from": "employee.employee_name",
+			"label": "Employee Name",
+			"read_only": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{"fieldname": "branch", "fieldtype": "Link", "label": "Branch", "options": "Branch"},
+		{"fieldname": "review_section", "fieldtype": "Section Break", "label": "Review Period"},
+		{
+			"fieldname": "review_period_start",
+			"fieldtype": "Date",
+			"in_list_view": 1,
+			"label": "Period Start",
+			"reqd": 1
+		},
+		{
+			"fieldname": "review_period_end",
+			"fieldtype": "Date",
+			"in_list_view": 1,
+			"label": "Period End",
+			"reqd": 1
+		},
+		{"fieldname": "appraiser", "fieldtype": "Link", "label": "Appraiser", "options": "User"},
+		{
+			"default": "Draft",
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"in_list_view": 1,
+			"label": "Status",
+			"options": "Draft\nIn Review\nCompleted\nCancelled",
+			"reqd": 1
+		},
+		{"fieldname": "scores_section", "fieldtype": "Section Break", "label": "Scores"},
+		{"fieldname": "goals_score", "fieldtype": "Percent", "label": "Goals Score"},
+		{"fieldname": "competency_score", "fieldtype": "Percent", "label": "Competency Score"},
+		{"fieldname": "overall_score", "fieldtype": "Percent", "in_list_view": 1, "label": "Overall Score"},
+		{
+			"fieldname": "rating_band",
+			"fieldtype": "Select",
+			"label": "Rating Band",
+			"options": "\nOutstanding\nExceeds Expectations\nMeets Expectations\nNeeds Improvement\nUnsatisfactory"
+		},
+		{"fieldname": "feedback", "fieldtype": "Text Editor", "label": "Feedback"},
+		{"fieldname": "column_break_omnexa_1", "fieldtype": "Column Break"},
+		{"fieldname": "column_break_omnexa_2", "fieldtype": "Column Break"},
+		{"fieldname": "column_break_omnexa_3", "fieldtype": "Column Break"}
+	],
+	"index_web_pages_for_search": 1,
+	"is_submittable": 1,
+	"module": "Omnexa Hr",
+	"name": "HR Employee Appraisal",
+	"naming_rule": "Expression",
+	"permissions": [
+		{
+			"create": 1,
+			"delete": 1,
+			"email": 1,
+			"export": 1,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "System Manager",
+			"share": 1,
+			"submit": 1,
+			"write": 1
+		},
+		{
+			"create": 1,
+			"delete": 0,
+			"print": 1,
+			"read": 1,
+			"report": 1,
+			"role": "Accounts Manager",
+			"submit": 1,
+			"write": 1
+		},
+		{
+			"create": 0,
+			"delete": 0,
+			"print": 1,
+			"read": 1,
+			"role": "Accounts User",
+			"write": 0
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
+}

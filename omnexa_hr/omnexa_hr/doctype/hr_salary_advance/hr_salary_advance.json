@@ -1,0 +1,147 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-30 12:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"employee",
+		"employee_name",
+		"company",
+		"branch",
+		"advance_date",
+		"amount",
+		"tab_break_details",
+		"column_break_a1",
+		"recovered_amount",
+		"outstanding",
+		"monthly_recovery_cap",
+		"status",
+		"remarks"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_details",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Employee",
+			"options": "Employee",
+			"reqd": 1
+		},
+		{
+			"fieldname": "employee_name",
+			"fieldtype": "Data",
+			"label": "Employee Name",
+			"read_only": 1,
+			"fetch_from": "employee.employee_name"
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "advance_date",
+			"fieldtype": "Date",
+			"label": "Advance Date",
+			"reqd": 1
+		},
+		{
+			"fieldname": "amount",
+			"fieldtype": "Currency",
+			"label": "Advance Amount",
+			"reqd": 1
+		},
+		{
+			"fieldname": "column_break_a1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "recovered_amount",
+			"fieldtype": "Currency",
+			"label": "Recovered to Date",
+			"default": "0"
+		},
+		{
+			"fieldname": "outstanding",
+			"fieldtype": "Currency",
+			"label": "Outstanding",
+			"read_only": 1
+		},
+		{
+			"fieldname": "monthly_recovery_cap",
+			"fieldtype": "Currency",
+			"label": "Monthly recovery cap"
+		},
+		{
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"label": "Status",
+			"options": "Draft\nActive\nClosed",
+			"default": "Draft",
+			"in_list_view": 1
+		},
+		{
+			"fieldname": "remarks",
+			"fieldtype": "Small Text",
+			"label": "Remarks"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Salary Advance",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"role": "System Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 1,
+			"export": 1
+		},
+		{
+			"role": "Accounts Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 0,
+			"export": 1
+		},
+		{
+			"role": "Accounts User",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 0,
+			"export": 0
+		}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}

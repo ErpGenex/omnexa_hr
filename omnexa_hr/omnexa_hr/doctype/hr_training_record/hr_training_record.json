@@ -1,0 +1,170 @@
+{
+	"actions": [],
+	"allow_rename": 1,
+	"autoname": "hash",
+	"creation": "2026-04-14 23:30:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"tab_break_overview",
+		"employee",
+		"company",
+		"column_break_omnexa_1",
+		"training_title",
+		"provider",
+		"tab_break_1",
+		"schedule_section",
+		"start_date",
+		"end_date",
+		"tab_break_2",
+		"cost_section",
+		"cost",
+		"certificate_url",
+		"tab_break_3",
+		"status_section",
+		"completion_score",
+		"status",
+		"owner_user"
+	],
+	"fields": [
+		{
+			"fieldname": "tab_break_overview",
+			"fieldtype": "Tab Break",
+			"label": "Overview"
+		},
+		{
+			"fieldname": "tab_break_1",
+			"fieldtype": "Tab Break",
+			"label": "Details"
+		},
+		{
+			"fieldname": "tab_break_2",
+			"fieldtype": "Tab Break",
+			"label": "Further"
+		},
+		{
+			"fieldname": "tab_break_3",
+			"fieldtype": "Tab Break",
+			"label": "Posting"
+		},
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"label": "Employee",
+			"options": "Employee",
+			"reqd": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "training_title",
+			"fieldtype": "Data",
+			"label": "Training Title",
+			"reqd": 1
+		},
+		{
+			"fieldname": "provider",
+			"fieldtype": "Data",
+			"label": "Provider"
+		},
+		{
+			"fieldname": "schedule_section",
+			"fieldtype": "Section Break",
+			"label": "Schedule"
+		},
+		{
+			"fieldname": "start_date",
+			"fieldtype": "Date",
+			"label": "Start Date"
+		},
+		{
+			"fieldname": "end_date",
+			"fieldtype": "Date",
+			"label": "End Date"
+		},
+		{
+			"fieldname": "cost_section",
+			"fieldtype": "Section Break",
+			"label": "Cost and Artifacts"
+		},
+		{
+			"fieldname": "cost",
+			"fieldtype": "Currency",
+			"label": "Cost"
+		},
+		{
+			"fieldname": "certificate_url",
+			"fieldtype": "Data",
+			"label": "Certificate URL"
+		},
+		{
+			"fieldname": "status_section",
+			"fieldtype": "Section Break",
+			"label": "Completion"
+		},
+		{
+			"fieldname": "completion_score",
+			"fieldtype": "Percent",
+			"label": "Completion Score"
+		},
+		{
+			"fieldname": "status",
+			"fieldtype": "Select",
+			"label": "Status",
+			"options": "Planned\nIn Progress\nCompleted\nCancelled",
+			"default": "Planned"
+		},
+		{
+			"fieldname": "owner_user",
+			"fieldtype": "Link",
+			"label": "Owner",
+			"options": "User"
+		},
+		{
+			"fieldname": "column_break_omnexa_1",
+			"fieldtype": "Column Break"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-05-07 12:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Training Record",
+	"owner": "Administrator",
+	"permissions": [
+		{
+			"role": "System Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"delete": 1,
+			"report": 1,
+			"export": 1
+		},
+		{
+			"role": "Accounts Manager",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"report": 1
+		},
+		{
+			"role": "Accounts User",
+			"read": 1,
+			"write": 1,
+			"create": 1,
+			"report": 1
+		}
+	],
+	"row_format": "Dynamic",
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"states": [],
+	"track_changes": 1
+}
