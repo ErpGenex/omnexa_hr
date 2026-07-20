@@ -1,0 +1,131 @@
+{
+    "name": "Omnexa Hr",
+    "module": "omnexa_hr",
+    "is_standard": 1,
+    "shortcuts": [],
+    "links": [
+        {
+            "label": "Omnexa Hr List",
+            "name": "omnexa_hr",
+            "type": "List",
+            "link_to": "omnexa_hr",
+            "onboard": 1
+        },
+        {
+            "label": "Omnexa Hr Dashboard",
+            "name": "omnexa_hr_dashboard",
+            "type": "Dashboard",
+            "link_to": "omnexa_hr_dashboard",
+            "onboard": 1
+        }
+    ],
+    "onboarding": [],
+    "charts": [
+        {
+            "label": "Monthly Activity",
+            "chart_name": "omnexa_hr_monthly_activity",
+            "chart_type": "Line",
+            "is_standard": 1
+        },
+        {
+            "label": "Status Distribution",
+            "chart_name": "omnexa_hr_status_distribution",
+            "chart_type": "Pie",
+            "is_standard": 1
+        },
+        {
+            "label": "Performance Metrics",
+            "chart_name": "omnexa_hr_performance_metrics",
+            "chart_type": "Bar",
+            "is_standard": 1
+        }
+    ],
+    "card": {
+        "card_name": "omnexa_hr",
+        "card_style": "Default"
+    },
+    "number_cards": [
+        {
+            "label": "Total Records",
+            "number_card_name": "omnexa_hr_total_records",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        },
+        {
+            "label": "Active Items",
+            "number_card_name": "omnexa_hr_active_items",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        },
+        {
+            "label": "Pending Actions",
+            "number_card_name": "omnexa_hr_pending_actions",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        },
+        {
+            "label": "Completed Tasks",
+            "number_card_name": "omnexa_hr_completed_tasks",
+            "number_card_doc_type": "Number Card",
+            "is_standard": 1
+        }
+    ],
+    "reports": [
+        {
+            "label": "Omnexa Hr Report",
+            "name": "omnexa_hr_report",
+            "type": "Report",
+            "is_standard": 1
+        },
+        {
+            "label": "Summary Report",
+            "name": "omnexa_hr_summary_report",
+            "type": "Report",
+            "is_standard": 1
+        },
+        {
+            "label": "Detailed Analysis",
+            "name": "omnexa_hr_detailed_analysis",
+            "type": "Report",
+            "is_standard": 1
+        },
+        {
+            "label": "Performance Report",
+            "name": "omnexa_hr_performance_report",
+            "type": "Report",
+            "is_standard": 1
+        }
+    ],
+    "operations": [
+        {
+            "label": "Create Omnexa Hr",
+            "name": "create_omnexa_hr",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Import Data",
+            "name": "import_omnexa_hr_data",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Export Records",
+            "name": "export_omnexa_hr_records",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Settings",
+            "name": "omnexa_hr_settings",
+            "type": "Action",
+            "is_standard": 1
+        },
+        {
+            "label": "Bulk Update",
+            "name": "bulk_update_omnexa_hr",
+            "type": "Action",
+            "is_standard": 1
+        }
+    ]
+}

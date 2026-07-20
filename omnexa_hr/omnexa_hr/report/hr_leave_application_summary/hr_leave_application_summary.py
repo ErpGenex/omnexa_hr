@@ -43,11 +43,16 @@ def execute(filters=None):
 		row.total_days = flt(row.total_days)
 
 	columns = [
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120},
-		{"label": _("Leave Type"), "fieldname": "leave_type", "fieldtype": "Link", "options": "HR Leave Type", "width": 160},
-		{"label": _("Branch"), "fieldname": "branch", "fieldtype": "Link", "options": "Branch", "width": 130},
-		{"label": _("Applications"), "fieldname": "applications", "fieldtype": "Int", "width": 120},
-		{"label": _("Total Days"), "fieldname": "total_days", "fieldtype": "Float", "width": 110},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120
+	},
+		{"label": _("Leave Type"), "fieldname": "leave_type", "fieldtype": "Link", "options": "HR Leave Type", "width": 160
+	},
+		{"label": _("Branch"), "fieldname": "branch", "fieldtype": "Link", "options": "Branch", "width": 130
+	},
+		{"label": _("Applications"), "fieldname": "applications", "fieldtype": "Int", "width": 120
+	},
+		{"label": _("Total Days"), "fieldname": "total_days", "fieldtype": "Float", "width": 110
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

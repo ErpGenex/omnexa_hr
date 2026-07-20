@@ -36,9 +36,12 @@ def execute(filters=None):
 	)
 
 	columns = [
-		{"label": _("Date"), "fieldname": "attendance_date", "fieldtype": "Date", "width": 120},
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120},
-		{"label": _("Records"), "fieldname": "records", "fieldtype": "Int", "width": 100},
+		{"label": _("Date"), "fieldname": "attendance_date", "fieldtype": "Date", "width": 120
+	},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120
+	},
+		{"label": _("Records"), "fieldname": "records", "fieldtype": "Int", "width": 100
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

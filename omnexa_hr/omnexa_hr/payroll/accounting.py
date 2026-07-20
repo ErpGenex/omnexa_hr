@@ -19,7 +19,8 @@ def create_payroll_accrual_journal(run_doc) -> str | None:
 		return None
 
 	company = run_doc.company
-	settings_name = frappe.db.get_value("HR Payroll Company Settings", {"company": company}, "name")
+	settings_name = frappe.db.get_value("HR Payroll Company Settings", {"company": company
+	}, "name")
 	if not settings_name:
 		frappe.throw(
 			_("Create HR Payroll Company Settings for company {0} before submitting a payroll run.").format(company),
@@ -35,7 +36,8 @@ def create_payroll_accrual_journal(run_doc) -> str | None:
 		run_doc.branch
 		or settings.default_branch
 		or get_default_branch(company)
-		or frappe.db.get_value("Branch", {"company": company}, "name")
+		or frappe.db.get_value("Branch", {"company": company
+	}, "name")
 	)
 	if not branch:
 		frappe.throw(_("Branch is required to post payroll accrual journal."), title=_("Branch"))
@@ -58,7 +60,8 @@ def create_payroll_accrual_journal(run_doc) -> str | None:
 	for cc, amt in sorted(by_cc.items(), key=lambda x: x[0]):
 		if flt(amt) <= 0:
 			continue
-		line = {"account": expense_acc, "debit": flt(amt, 2), "credit": 0}
+		line = {"account": expense_acc, "debit": flt(amt, 2), "credit": 0
+	}
 		if cc:
 			line["cost_center"] = cc
 		accounts.append(line)
@@ -75,8 +78,8 @@ def create_payroll_accrual_journal(run_doc) -> str | None:
 			"entry_type": "Standard",
 			"reference": run_doc.name,
 			"remarks": _("Payroll accrual — period {0} to {1}").format(run_doc.period_start, run_doc.period_end),
-			"accounts": accounts,
-		}
+			"accounts": accounts
+	}
 	)
 	je.insert(ignore_permissions=True)
 	je.submit()

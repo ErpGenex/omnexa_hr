@@ -50,17 +50,28 @@ def execute(filters=None):
 			row[k] = flt(row[k])
 
 	columns = [
-		{"label": _("Payroll Entry"), "fieldname": "name", "fieldtype": "Link", "options": "HR Payroll Entry", "width": 140},
-		{"label": _("Employee"), "fieldname": "employee", "fieldtype": "Link", "options": "Employee", "width": 120},
-		{"label": _("Employee Name"), "fieldname": "employee_name", "fieldtype": "Data", "width": 160},
-		{"label": _("Company"), "fieldname": "company", "fieldtype": "Link", "options": "Company", "width": 120},
-		{"label": _("Payroll Month"), "fieldname": "payroll_month", "fieldtype": "Date", "width": 120},
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 90},
-		{"label": _("Basic Salary"), "fieldname": "basic_salary", "fieldtype": "Currency", "width": 120},
-		{"label": _("Allowances"), "fieldname": "allowances", "fieldtype": "Currency", "width": 110},
-		{"label": _("Deductions"), "fieldname": "deductions", "fieldtype": "Currency", "width": 110},
-		{"label": _("Bonus"), "fieldname": "bonus", "fieldtype": "Currency", "width": 100},
-		{"label": _("Net Pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 120},
+		{"label": _("Payroll Entry"), "fieldname": "name", "fieldtype": "Link", "options": "HR Payroll Entry", "width": 140
+	},
+		{"label": _("Employee"), "fieldname": "employee", "fieldtype": "Link", "options": "Employee", "width": 120
+	},
+		{"label": _("Employee Name"), "fieldname": "employee_name", "fieldtype": "Data", "width": 160
+	},
+		{"label": _("Company"), "fieldname": "company", "fieldtype": "Link", "options": "Company", "width": 120
+	},
+		{"label": _("Payroll Month"), "fieldname": "payroll_month", "fieldtype": "Date", "width": 120
+	},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 90
+	},
+		{"label": _("Basic Salary"), "fieldname": "basic_salary", "fieldtype": "Currency", "width": 120
+	},
+		{"label": _("Allowances"), "fieldname": "allowances", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Deductions"), "fieldname": "deductions", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Bonus"), "fieldname": "bonus", "fieldtype": "Currency", "width": 100
+	},
+		{"label": _("Net Pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 120
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

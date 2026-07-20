@@ -45,14 +45,22 @@ def execute(filters=None):
 			row[k] = flt(row[k])
 
 	columns = [
-		{"label": _("Payroll Period"), "fieldname": "payroll_period", "fieldtype": "Data", "width": 120},
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 100},
-		{"label": _("Employees"), "fieldname": "employees", "fieldtype": "Int", "width": 100},
-		{"label": _("Basic Salary"), "fieldname": "basic_salary", "fieldtype": "Currency", "width": 120},
-		{"label": _("Allowances"), "fieldname": "allowances", "fieldtype": "Currency", "width": 110},
-		{"label": _("Deductions"), "fieldname": "deductions", "fieldtype": "Currency", "width": 110},
-		{"label": _("Bonus"), "fieldname": "bonus", "fieldtype": "Currency", "width": 100},
-		{"label": _("Net Pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 120},
+		{"label": _("Payroll Period"), "fieldname": "payroll_period", "fieldtype": "Data", "width": 120
+	},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 100
+	},
+		{"label": _("Employees"), "fieldname": "employees", "fieldtype": "Int", "width": 100
+	},
+		{"label": _("Basic Salary"), "fieldname": "basic_salary", "fieldtype": "Currency", "width": 120
+	},
+		{"label": _("Allowances"), "fieldname": "allowances", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Deductions"), "fieldname": "deductions", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Bonus"), "fieldname": "bonus", "fieldtype": "Currency", "width": 100
+	},
+		{"label": _("Net Pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 120
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

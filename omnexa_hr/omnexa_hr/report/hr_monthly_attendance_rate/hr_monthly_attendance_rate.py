@@ -43,18 +43,24 @@ def execute(filters=None):
 		row["productive_rate_pct"] = flt(100.0 * productive / total, 2) if total else 0.0
 
 	columns = [
-		{"label": _("Period (YYYY-MM)"), "fieldname": "period", "fieldtype": "Data", "width": 110},
-		{"label": _("Total Records"), "fieldname": "total_records", "fieldtype": "Int", "width": 110},
-		{"label": _("Present"), "fieldname": "present_count", "fieldtype": "Int", "width": 90},
-		{"label": _("Remote"), "fieldname": "remote_count", "fieldtype": "Int", "width": 90},
-		{"label": _("Absent"), "fieldname": "absent_count", "fieldtype": "Int", "width": 90},
-		{"label": _("On Leave"), "fieldname": "on_leave_count", "fieldtype": "Int", "width": 90},
+		{"label": _("Period (YYYY-MM)"), "fieldname": "period", "fieldtype": "Data", "width": 110
+	},
+		{"label": _("Total Records"), "fieldname": "total_records", "fieldtype": "Int", "width": 110
+	},
+		{"label": _("Present"), "fieldname": "present_count", "fieldtype": "Int", "width": 90
+	},
+		{"label": _("Remote"), "fieldname": "remote_count", "fieldtype": "Int", "width": 90
+	},
+		{"label": _("Absent"), "fieldname": "absent_count", "fieldtype": "Int", "width": 90
+	},
+		{"label": _("On Leave"), "fieldname": "on_leave_count", "fieldtype": "Int", "width": 90
+	},
 		{
 			"label": _("Productive attendance %"),
 			"fieldname": "productive_rate_pct",
 			"fieldtype": "Float",
-			"width": 150,
-		},
+			"width": 150
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

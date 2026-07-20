@@ -52,14 +52,22 @@ def execute(filters=None):
 			row[f] = flt(row[f])
 
 	columns = [
-		{"label": _("Payroll Entry"), "fieldname": "name", "fieldtype": "Link", "options": "HR Payroll Entry", "width": 130},
-		{"label": _("Employee"), "fieldname": "employee", "fieldtype": "Link", "options": "Employee", "width": 110},
-		{"label": _("Name"), "fieldname": "employee_name", "fieldtype": "Data", "width": 150},
-		{"label": _("Payroll Month"), "fieldname": "payroll_month", "fieldtype": "Date", "width": 110},
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 90},
-		{"label": _("Gross Pay"), "fieldname": "gross_pay", "fieldtype": "Currency", "width": 110},
-		{"label": _("Deductions"), "fieldname": "statutory_deductions", "fieldtype": "Currency", "width": 110},
-		{"label": _("Net Pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 110},
+		{"label": _("Payroll Entry"), "fieldname": "name", "fieldtype": "Link", "options": "HR Payroll Entry", "width": 130
+	},
+		{"label": _("Employee"), "fieldname": "employee", "fieldtype": "Link", "options": "Employee", "width": 110
+	},
+		{"label": _("Name"), "fieldname": "employee_name", "fieldtype": "Data", "width": 150
+	},
+		{"label": _("Payroll Month"), "fieldname": "payroll_month", "fieldtype": "Date", "width": 110
+	},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 90
+	},
+		{"label": _("Gross Pay"), "fieldname": "gross_pay", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Deductions"), "fieldname": "statutory_deductions", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Net Pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 110
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

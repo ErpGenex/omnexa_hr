@@ -11,10 +11,14 @@ def execute(filters=None):
 	filters = frappe._dict(filters or {})
 
 	columns = [
-		{"label": _("Company"), "fieldname": "company", "fieldtype": "Link", "options": "Company", "width": 180},
-		{"label": _("Department"), "fieldname": "department", "fieldtype": "Data", "width": 150},
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120},
-		{"label": _("Headcount"), "fieldname": "headcount", "fieldtype": "Int", "width": 120},
+		{"label": _("Company"), "fieldname": "company", "fieldtype": "Link", "options": "Company", "width": 180
+	},
+		{"label": _("Department"), "fieldname": "department", "fieldtype": "Data", "width": 150
+	},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120
+	},
+		{"label": _("Headcount"), "fieldname": "headcount", "fieldtype": "Int", "width": 120
+	},
 	]
 
 	conditions = ["1=1"]

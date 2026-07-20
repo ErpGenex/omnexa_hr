@@ -29,8 +29,7 @@ def validate_attendance_for_salary_slip(doc):
 			"employee": doc.employee,
 			"company": doc.company,
 			"attendance_date": ["between", [start, end]],
-			"status": ["in", ["Present", "Remote"]],
-		},
+			"status": ["in", ["Present", "Remote"]]},
 	)
 	if count < 1:
 		frappe.throw(

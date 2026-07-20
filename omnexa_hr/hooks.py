@@ -141,48 +141,47 @@ after_migrate = "omnexa_hr.install.after_migrate"
 doc_events = {
 	"HR Attendance": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
 	},
 	"HR Payroll Entry": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
 	},
 	"HR Payroll Company Settings": {
-		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context"
 	},
 	"HR Salary Slip": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
 	},
 	"HR Payroll Run": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
 	},
 	"HR Salary Advance": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
 	},
 	"HR End of Service Settlement": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
 	},
 	"HR Recruitment Request": {
-		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context"
 	},
 	"HR Interview": {
-		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context"
 	},
 	"HR Training Record": {
-		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context"
 	},
 	"HR Leave Type": {
-		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context"
 	},
 	"HR Leave Application": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
-	},
-}
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"}
+	}
 
 # Scheduled Tasks
 # ---------------
@@ -248,22 +247,22 @@ doc_events = {
 
 # user_data_fields = [
 # 	{
-# 		"doctype": "{doctype_1}",
-# 		"filter_by": "{filter_by}",
-# 		"redact_fields": ["{field_1}", "{field_2}"],
+# 		"doctype": "{}",
+# 		"filter_by": "{}",
+# 		"redact_fields": ["{}", "{}"],
 # 		"partial": 1,
 # 	},
 # 	{
-# 		"doctype": "{doctype_2}",
-# 		"filter_by": "{filter_by}",
+# 		"doctype": "{}",
+# 		"filter_by": "{}",
 # 		"partial": 1,
 # 	},
 # 	{
-# 		"doctype": "{doctype_3}",
+# 		"doctype": "{}",
 # 		"strict": False,
 # 	},
 # 	{
-# 		"doctype": "{doctype_4}"
+# 		"doctype": "{}"
 # 	}
 # ]
 

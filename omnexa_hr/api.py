@@ -13,8 +13,7 @@ from omnexa_hr.omnexa_hr.payroll.eos import compute_gratuity
 def hr_payroll_feature_flags():
 	return {
 		"global_hr_payroll_require_attendance": is_feature_enabled("global_hr_payroll_require_attendance", False),
-		"global_hr_payroll_auto_accrual_je": is_feature_enabled("global_hr_payroll_auto_accrual_je", True),
-	}
+		"global_hr_payroll_auto_accrual_je": is_feature_enabled("global_hr_payroll_auto_accrual_je", True)}
 
 
 @frappe.whitelist()
@@ -46,8 +45,7 @@ def preview_end_of_service(employee: str, termination_date: str, last_basic_sala
 			daily_wage=daily,
 			monthly_salary=monthly,
 			scheme=use_scheme,
-		),
-	}
+		)}
 
 @frappe.whitelist()
 def preview_sector_kpi(scenario: str | None = None, params: str | None = None) -> dict:

@@ -59,20 +59,34 @@ def execute(filters=None):
 			row[k] = flt(row[k])
 
 	columns = [
-		{"label": _("Salary Slip"), "fieldname": "name", "fieldtype": "Link", "options": "HR Salary Slip", "width": 150},
-		{"label": _("Employee"), "fieldname": "employee", "fieldtype": "Link", "options": "Employee", "width": 120},
-		{"label": _("Employee Name"), "fieldname": "employee_name", "fieldtype": "Data", "width": 160},
-		{"label": _("Company"), "fieldname": "company", "fieldtype": "Link", "options": "Company", "width": 120},
-		{"label": _("Branch"), "fieldname": "branch", "fieldtype": "Link", "options": "Branch", "width": 120},
-		{"label": _("Period Start"), "fieldname": "period_start", "fieldtype": "Date", "width": 110},
-		{"label": _("Period End"), "fieldname": "period_end", "fieldtype": "Date", "width": 110},
-		{"label": _("Posting Date"), "fieldname": "posting_date", "fieldtype": "Date", "width": 110},
-		{"label": _("Docstatus"), "fieldname": "docstatus", "fieldtype": "Int", "width": 80},
-		{"label": _("Gross pay"), "fieldname": "gross_pay", "fieldtype": "Currency", "width": 110},
-		{"label": _("Deductions"), "fieldname": "total_deductions", "fieldtype": "Currency", "width": 110},
-		{"label": _("Employer contrib."), "fieldname": "employer_contributions_total", "fieldtype": "Currency", "width": 120},
-		{"label": _("Net pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 110},
-		{"label": _("Expense (P&L)"), "fieldname": "expense_total", "fieldtype": "Currency", "width": 120},
+		{"label": _("Salary Slip"), "fieldname": "name", "fieldtype": "Link", "options": "HR Salary Slip", "width": 150
+	},
+		{"label": _("Employee"), "fieldname": "employee", "fieldtype": "Link", "options": "Employee", "width": 120
+	},
+		{"label": _("Employee Name"), "fieldname": "employee_name", "fieldtype": "Data", "width": 160
+	},
+		{"label": _("Company"), "fieldname": "company", "fieldtype": "Link", "options": "Company", "width": 120
+	},
+		{"label": _("Branch"), "fieldname": "branch", "fieldtype": "Link", "options": "Branch", "width": 120
+	},
+		{"label": _("Period Start"), "fieldname": "period_start", "fieldtype": "Date", "width": 110
+	},
+		{"label": _("Period End"), "fieldname": "period_end", "fieldtype": "Date", "width": 110
+	},
+		{"label": _("Posting Date"), "fieldname": "posting_date", "fieldtype": "Date", "width": 110
+	},
+		{"label": _("Docstatus"), "fieldname": "docstatus", "fieldtype": "Int", "width": 80
+	},
+		{"label": _("Gross pay"), "fieldname": "gross_pay", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Deductions"), "fieldname": "total_deductions", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Employer contrib."), "fieldname": "employer_contributions_total", "fieldtype": "Currency", "width": 120
+	},
+		{"label": _("Net pay"), "fieldname": "net_pay", "fieldtype": "Currency", "width": 110
+	},
+		{"label": _("Expense (P&L)"), "fieldname": "expense_total", "fieldtype": "Currency", "width": 120
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart

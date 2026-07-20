@@ -40,10 +40,14 @@ def execute(filters=None):
 		row.total_cost = flt(row.total_cost)
 
 	columns = [
-		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120},
-		{"label": _("Training"), "fieldname": "training_title", "fieldtype": "Data", "width": 220},
-		{"label": _("Records"), "fieldname": "records", "fieldtype": "Int", "width": 100},
-		{"label": _("Total Cost"), "fieldname": "total_cost", "fieldtype": "Currency", "width": 120},
+		{"label": _("Status"), "fieldname": "status", "fieldtype": "Data", "width": 120
+	},
+		{"label": _("Training"), "fieldname": "training_title", "fieldtype": "Data", "width": 220
+	},
+		{"label": _("Records"), "fieldname": "records", "fieldtype": "Int", "width": 100
+	},
+		{"label": _("Total Cost"), "fieldname": "total_cost", "fieldtype": "Currency", "width": 120
+	},
 	]
 	chart = auto_chart_for_columns(data, columns)
 	return columns, data, None, chart
