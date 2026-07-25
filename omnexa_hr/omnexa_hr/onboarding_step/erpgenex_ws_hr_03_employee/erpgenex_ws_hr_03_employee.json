@@ -1,7 +1,7 @@
 {
  "action": "Create Entry",
  "action_label": "Create",
- "creation": "2026-05-08 03:35:28.105530",
+ "creation": "2026-07-20 01:49:22.674023",
  "description": "Create or review your first **Employee** record from this workspace.",
  "docstatus": 0,
  "doctype": "Onboarding Step",
@@ -9,7 +9,7 @@
  "is_complete": 0,
  "is_single": 0,
  "is_skipped": 0,
- "modified": "2026-07-11 14:37:29.529698",
+ "modified": "2026-07-25 15:05:05.477628",
  "modified_by": "Administrator",
  "name": "ERPGENEX-WS-hr-03-employee",
  "owner": "Administrator",
