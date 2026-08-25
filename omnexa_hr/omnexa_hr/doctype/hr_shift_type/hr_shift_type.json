@@ -1,0 +1,96 @@
+{
+	"actions": [],
+	"allow_import": 1,
+	"allow_rename": 1,
+	"autoname": "field:shift_name",
+	"creation": "2026-08-06 10:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"shift_name",
+		"company",
+		"branch",
+		"column_break_1",
+		"start_time",
+		"end_time",
+		"section_break_1",
+		"grace_period_minutes",
+		"working_hours_threshold",
+		"is_night_shift"
+	],
+	"fields": [
+		{
+			"fieldname": "shift_name",
+			"fieldtype": "Data",
+			"in_list_view": 1,
+			"label": "Shift Name",
+			"reqd": 1,
+			"unique": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "column_break_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "start_time",
+			"fieldtype": "Time",
+			"label": "Start Time",
+			"reqd": 1
+		},
+		{
+			"fieldname": "end_time",
+			"fieldtype": "Time",
+			"label": "End Time",
+			"reqd": 1
+		},
+		{
+			"fieldname": "section_break_1",
+			"fieldtype": "Section Break"
+		},
+		{
+			"default": "15",
+			"fieldname": "grace_period_minutes",
+			"fieldtype": "Int",
+			"label": "Grace Period (Minutes)"
+		},
+		{
+			"default": "8",
+			"fieldname": "working_hours_threshold",
+			"fieldtype": "Float",
+			"label": "Working Hours Threshold"
+		},
+		{
+			"default": "0",
+			"fieldname": "is_night_shift",
+			"fieldtype": "Check",
+			"label": "Night Shift"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"module": "Omnexa Hr",
+	"name": "HR Shift Type",
+	"naming_rule": "By fieldname",
+	"permissions": [
+		{"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+		{"role": "HR Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+		{"role": "HR User", "read": 1, "write": 1, "create": 1}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
+}

@@ -10,6 +10,7 @@
 		"employee",
 		"employee_name",
 		"company",
+		"branch",
 		"tab_break_1",
 		"attendance_section",
 		"attendance_date",
@@ -57,9 +58,24 @@
 		{
 			"fieldname": "company",
 			"fieldtype": "Link",
+			"in_list_view": 1,
 			"label": "Company",
 			"options": "Company",
 			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "biometric_device",
+			"fieldtype": "Link",
+			"label": "Biometric Device",
+			"options": "HR Biometric Device",
+			"read_only": 1
 		},
 		{
 			"fieldname": "attendance_section",

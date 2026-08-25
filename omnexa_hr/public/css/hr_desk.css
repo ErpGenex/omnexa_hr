@@ -1,0 +1,359 @@
+/*
+ * ErpGenEx HR Desk — dashboard layouts (shared with Next.js HRDashboardView)
+ * Extends egx_desk_design_system.css tokens
+ */
+
+body.egx-modern-desk .page-container[data-page-route^="hr-"] .page-head,
+body.egx-page-hr-dashboard .page-head,
+body.egx-page-hr-executive-dashboard .page-head,
+body.egx-page-hr-analytics-dashboard .page-head,
+body.egx-page-hr-employee-self-service .page-head,
+body.egx-page-hr-workcenter .page-head,
+body.egx-page-hr-operations-desk .page-head,
+body.egx-page-hr-finance-desk .page-head,
+body.egx-page-hr-customer-portal .page-head {
+	display: none !important;
+}
+
+.egx-hr-dashboard,
+.egx-hr-analytics,
+.egx-hr-ess,
+.egx-hr-workspace,
+.egx-hr-role-desk {
+	padding-top: var(--egx-space-2);
+}
+
+.egx-dash-row {
+	display: grid;
+	gap: var(--egx-space-4);
+	margin-bottom: var(--egx-space-5);
+}
+
+.egx-dash-row--hero {
+	grid-template-columns: 5fr 4fr 3fr;
+}
+
+.egx-dash-row--charts,
+.egx-dash-row--panels {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.egx-dash-row--panels {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1200px) {
+	.egx-dash-row--hero {
+		grid-template-columns: 1fr 1fr;
+	}
+	.egx-dash-row--hero .egx-dash-announce {
+		grid-column: 1 / -1;
+	}
+}
+
+@media (max-width: 768px) {
+	.egx-dash-row--hero,
+	.egx-dash-row--charts,
+	.egx-dash-row--panels {
+		grid-template-columns: 1fr;
+	}
+}
+
+.egx-dash-welcome {
+	background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(37, 99, 235, 0.05));
+	border-color: rgba(139, 92, 246, 0.25);
+	padding: var(--egx-space-5);
+	min-height: 180px;
+	position: relative;
+	overflow: hidden;
+}
+
+.egx-dash-welcome-art {
+	position: absolute;
+	right: var(--egx-space-4);
+	bottom: 0;
+	width: 120px;
+	height: 80px;
+	border-radius: var(--egx-radius-lg);
+	background: linear-gradient(90deg, rgba(139, 92, 246, 0.15), rgba(37, 99, 235, 0.1));
+	opacity: 0.8;
+}
+
+.egx-dash-section-title {
+	font-size: 13px;
+	font-weight: 600;
+	margin: 0 0 var(--egx-space-3);
+	color: var(--egx-text-secondary);
+}
+
+.egx-dash-action-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: var(--egx-space-2);
+}
+
+.egx-dash-action {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: var(--egx-space-2);
+	padding: var(--egx-space-3);
+	border: 1px solid var(--egx-border);
+	border-radius: var(--egx-radius);
+	text-align: center;
+	text-decoration: none !important;
+	color: var(--egx-text) !important;
+	font-size: 12px;
+	font-weight: 500;
+	transition: border-color 0.12s, background 0.12s;
+}
+
+.egx-dash-action:hover {
+	border-color: var(--egx-primary);
+	background: var(--egx-primary-soft);
+}
+
+.egx-dash-action-icon {
+	width: 36px;
+	height: 36px;
+	border-radius: var(--egx-radius);
+	background: var(--egx-primary-soft);
+}
+
+.egx-dash-action-icon--blue { background: #eff6ff; }
+.egx-dash-action-icon--purple { background: #f5f3ff; }
+.egx-dash-action-icon--orange { background: #fff7ed; }
+.egx-dash-action-icon--green { background: #f0fdf4; }
+
+.egx-dash-announce-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.egx-dash-announce-list li {
+	display: flex;
+	gap: var(--egx-space-2);
+	margin-bottom: var(--egx-space-3);
+	font-size: 13px;
+}
+
+.egx-dash-announce-dot {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: var(--egx-primary);
+	margin-top: 6px;
+	flex-shrink: 0;
+}
+
+.egx-dash-announce-title {
+	font-weight: 600;
+}
+
+.egx-dash-announce-meta {
+	font-size: 11px;
+	color: var(--egx-muted);
+}
+
+.egx-dash-kpi-row {
+	grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+
+.egx-kpi__value-row {
+	display: flex;
+	align-items: baseline;
+	gap: var(--egx-space-2);
+}
+
+.egx-kpi__delta {
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.egx-kpi__delta--positive { color: var(--egx-success); }
+.egx-kpi__delta--negative { color: var(--egx-danger); }
+.egx-kpi__delta--neutral { color: var(--egx-muted); }
+
+.egx-kpi--purple .egx-kpi__value { color: #7c3aed; }
+.egx-kpi--blue .egx-kpi__value { color: var(--egx-primary); }
+.egx-kpi--danger .egx-kpi__value { color: var(--egx-danger); }
+
+.egx-dash-chart-panel {
+	padding: var(--egx-space-5);
+}
+
+.egx-dash-tabs {
+	display: flex;
+	gap: var(--egx-space-2);
+	margin-bottom: var(--egx-space-3);
+}
+
+.egx-dash-tab {
+	font-size: 11px;
+	padding: 4px 12px;
+	border-radius: var(--egx-radius-pill);
+	border: none;
+	background: var(--egx-canvas);
+	color: var(--egx-text-secondary);
+	cursor: pointer;
+}
+
+.egx-dash-tab.active {
+	background: var(--egx-primary);
+	color: #fff;
+}
+
+.egx-dash-att-stats {
+	display: flex;
+	gap: var(--egx-space-6);
+	margin-top: var(--egx-space-4);
+	padding-top: var(--egx-space-4);
+	border-top: 1px solid var(--egx-border-light);
+}
+
+.egx-dash-progress-list {
+	display: flex;
+	flex-direction: column;
+	gap: var(--egx-space-4);
+}
+
+.egx-dash-progress-head {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+	margin-bottom: var(--egx-space-1);
+}
+
+.egx-dash-progress-bar {
+	height: 8px;
+	background: var(--egx-canvas);
+	border-radius: var(--egx-radius-pill);
+	overflow: hidden;
+}
+
+.egx-dash-progress-bar span {
+	display: block;
+	height: 100%;
+	background: var(--egx-primary);
+	border-radius: var(--egx-radius-pill);
+}
+
+.egx-dash-simple-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.egx-dash-simple-list li {
+	display: flex;
+	justify-content: space-between;
+	padding: var(--egx-space-2) 0;
+	border-top: 1px solid var(--egx-border-light);
+	font-size: 13px;
+}
+
+.egx-dash-area-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: var(--egx-space-4);
+}
+
+@media (max-width: 768px) {
+	.egx-dash-area-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.egx-dash-link-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	gap: var(--egx-space-3);
+	margin-bottom: var(--egx-space-6);
+}
+
+.egx-dash-link-card {
+	display: flex !important;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--egx-space-2);
+	padding: var(--egx-space-4) !important;
+	text-decoration: none !important;
+	color: var(--egx-text) !important;
+	font-size: 13px;
+	font-weight: 500;
+	transition: box-shadow 0.12s, transform 0.12s;
+}
+
+.egx-dash-link-card:hover {
+	box-shadow: var(--egx-shadow-md);
+	transform: translateY(-1px);
+}
+
+.egx-dash-link-arrow {
+	color: var(--egx-primary);
+	font-weight: 700;
+}
+
+.egx-dash-link-ext {
+	color: var(--egx-muted);
+	font-size: 12px;
+}
+
+.egx-ws-section {
+	margin-top: var(--egx-space-4);
+}
+
+.egx-ess-profile {
+	display: flex;
+	align-items: center;
+	gap: var(--egx-space-4);
+	padding: var(--egx-space-5);
+}
+
+.egx-ess-avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.egx-ess-name {
+	margin: 0;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.egx-ess-kpis {
+	align-items: center;
+}
+
+.egx-ess-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--egx-space-2);
+	align-items: center;
+	padding: var(--egx-space-4);
+}
+
+.egx-panel {
+	padding: var(--egx-space-4);
+}
+
+.egx-skeleton-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: var(--egx-space-3);
+}
+
+.ed-skeleton-card {
+	background: linear-gradient(90deg, var(--egx-border-light) 25%, var(--egx-canvas) 50%, var(--egx-border-light) 75%);
+	background-size: 200% 100%;
+	animation: egx-shimmer 1.2s infinite;
+	border-radius: var(--egx-radius-lg);
+}
+
+@keyframes egx-shimmer {
+	0% { background-position: 200% 0; }
+	100% { background-position: -200% 0; }
+}

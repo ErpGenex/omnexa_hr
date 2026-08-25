@@ -1,0 +1,15 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-dashboard",
+	"page_name": "hr-dashboard",
+	"standard": "Yes",
+	"title": "HR Dashboard",
+	"roles": [
+		{"role": "System Manager"},
+		{"role": "Company Admin"},
+		{"role": "HR Manager"},
+		{"role": "HR User"},
+		{"role": "HR Employee"}
+	]
+}

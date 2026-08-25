@@ -6,3 +6,4 @@
 # Patches added in this section will be executed after doctypes are migrated
 omnexa_hr.patches.v1_0.sync_hr_report_roles
 omnexa_hr.patches.v1_0.resync_hr_report_roles
+omnexa_hr.patches.v1_0.purge_hr_erp_workspace_links

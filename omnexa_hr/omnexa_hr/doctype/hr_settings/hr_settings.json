@@ -1,0 +1,103 @@
+{
+	"actions": [],
+	"creation": "2026-08-06 10:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"biometric_section",
+		"auto_sync_biometric",
+		"biometric_sync_interval_minutes",
+		"default_punch_grace_minutes",
+		"column_break_1",
+		"default_employee_match_field",
+		"leave_section",
+		"enforce_leave_balance",
+		"fiscal_year_start_month",
+		"performance_section",
+		"enable_iso30414_metrics",
+		"enable_employee_self_service"
+	],
+	"fields": [
+		{
+			"fieldname": "biometric_section",
+			"fieldtype": "Section Break",
+			"label": "Biometric / Attendance"
+		},
+		{
+			"default": "1",
+			"fieldname": "auto_sync_biometric",
+			"fieldtype": "Check",
+			"label": "Auto Sync Biometric Devices"
+		},
+		{
+			"default": "60",
+			"fieldname": "biometric_sync_interval_minutes",
+			"fieldtype": "Int",
+			"label": "Sync Interval (Minutes)"
+		},
+		{
+			"default": "15",
+			"fieldname": "default_punch_grace_minutes",
+			"fieldtype": "Int",
+			"label": "Default Punch Grace (Minutes)"
+		},
+		{
+			"fieldname": "column_break_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"default": "biometric_user_id",
+			"fieldname": "default_employee_match_field",
+			"fieldtype": "Select",
+			"label": "Default Employee Match Field",
+			"options": "biometric_user_id\nemployee_code\nexternal_reference"
+		},
+		{
+			"fieldname": "leave_section",
+			"fieldtype": "Section Break",
+			"label": "Leave Management"
+		},
+		{
+			"default": "1",
+			"fieldname": "enforce_leave_balance",
+			"fieldtype": "Check",
+			"label": "Enforce Leave Balance on Approval"
+		},
+		{
+			"default": "1",
+			"fieldname": "fiscal_year_start_month",
+			"fieldtype": "Int",
+			"label": "Fiscal Year Start Month"
+		},
+		{
+			"fieldname": "performance_section",
+			"fieldtype": "Section Break",
+			"label": "International HR Standards"
+		},
+		{
+			"default": "1",
+			"fieldname": "enable_iso30414_metrics",
+			"fieldtype": "Check",
+			"description": "Enable ISO 30414 human capital metrics in HR dashboards",
+			"label": "Enable ISO 30414 Metrics"
+		},
+		{
+			"default": "1",
+			"fieldname": "enable_employee_self_service",
+			"fieldtype": "Check",
+			"label": "Enable Employee Self-Service"
+		}
+	],
+	"issingle": 1,
+	"modified": "2026-08-06 10:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Settings",
+	"permissions": [
+		{"role": "System Manager", "read": 1, "write": 1, "create": 1},
+		{"role": "HR Manager", "read": 1, "write": 1}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
+}

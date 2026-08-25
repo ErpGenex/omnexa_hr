@@ -10,23 +10,25 @@ app_license = "mit"
 
 required_apps = ["omnexa_core", "omnexa_accounting"]
 
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "omnexa_hr",
-# 		"logo": "/assets/omnexa_hr/logo.png",
-# 		"title": "Omnexa Hr",
-# 		"route": "/app/hr-workcenter",
-# 		"has_permission": "omnexa_hr.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "omnexa_hr",
+		"logo": "/assets/omnexa_hr/logo.png",
+		"title": "HR",
+		"route": "/app/hr-workcenter",
+		"has_permission": "omnexa_hr.omnexa_hr.api.permission.has_app_permission",
+	}
+]
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/omnexa_hr/css/omnexa_hr.css"
-# app_include_js = "/assets/omnexa_hr/js/omnexa_hr.js"
+app_include_css = [
+	"/assets/omnexa_hr/css/employee_directory.css",
+	"/assets/omnexa_hr/css/hr_desk.css",
+]
+app_include_js = "/assets/omnexa_hr/js/employee_list.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/omnexa_hr/css/omnexa_hr.css"
@@ -43,8 +45,11 @@ required_apps = ["omnexa_core", "omnexa_accounting"]
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
-# doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_list_js = {"Employee": "public/js/employee_list.js"}
+doctype_js = {
+	"HR Leave Application": "public/js/hr_leave_application.js",
+	"HR Biometric Device": "public/js/hr_biometric_device.js",
+}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -118,13 +123,21 @@ after_migrate = "omnexa_hr.install.after_migrate"
 # -----------
 # Permissions evaluated in scripted ways
 
-# permission_query_conditions = {
-# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
-# }
-#
-# has_permission = {
-# 	"Event": "frappe.desk.doctype.event.event.has_permission",
-# }
+permission_query_conditions = {
+	"HR Leave Application": "omnexa_hr.permissions.hr_leave_application_query",
+	"HR Attendance": "omnexa_hr.permissions.hr_attendance_query",
+	"HR Salary Slip": "omnexa_hr.permissions.hr_salary_slip_query",
+	"HR Training Record": "omnexa_hr.permissions.hr_training_record_query",
+	"HR Employee Appraisal": "omnexa_hr.permissions.hr_employee_appraisal_query",
+}
+
+has_permission = {
+	"HR Leave Application": "omnexa_hr.permissions.has_hr_employee_permission",
+	"HR Attendance": "omnexa_hr.permissions.has_hr_employee_permission",
+	"HR Salary Slip": "omnexa_hr.permissions.has_hr_employee_permission",
+	"HR Training Record": "omnexa_hr.permissions.has_hr_employee_permission",
+	"HR Employee Appraisal": "omnexa_hr.permissions.has_hr_employee_permission",
+}
 
 # DocType Class
 # ---------------
@@ -139,6 +152,10 @@ after_migrate = "omnexa_hr.install.after_migrate"
 # Hook on document methods and events
 
 doc_events = {
+	"Employee": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+	},
 	"HR Attendance": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
 		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"
@@ -180,29 +197,44 @@ doc_events = {
 	},
 	"HR Leave Application": {
 		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
-		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc"}
-	}
+		"validate": [
+			"omnexa_hr.permissions.enforce_branch_access_for_doc",
+			"omnexa_hr.permissions.validate_leave_application_permissions",
+		],
+	},
+	"HR Biometric Device": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+	},
+	"HR Biometric Punch Log": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+	},
+	"HR Leave Balance": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+	},
+	"HR Department": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+	},
+	"HR Shift Type": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+	},
+	"HR Job Applicant": {
+		"before_validate": "omnexa_hr.permissions.populate_company_branch_from_user_context",
+		"validate": "omnexa_hr.permissions.enforce_branch_access_for_doc",
+	},
+}
 
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"omnexa_hr.tasks.all"
-# 	],
-# 	"daily": [
-# 		"omnexa_hr.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"omnexa_hr.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"omnexa_hr.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"omnexa_hr.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+	"hourly": [
+		"omnexa_hr.omnexa_hr.api.biometric.sync_all_devices",
+	],
+}
 
 # Testing
 # -------

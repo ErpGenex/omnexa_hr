@@ -1,0 +1,99 @@
+{
+	"actions": [],
+	"allow_import": 1,
+	"allow_rename": 1,
+	"autoname": "field:department_name",
+	"creation": "2026-08-06 10:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"department_name",
+		"company",
+		"branch",
+		"column_break_1",
+		"parent_department",
+		"department_head",
+		"is_group",
+		"section_break_1",
+		"cost_center",
+		"description"
+	],
+	"fields": [
+		{
+			"fieldname": "department_name",
+			"fieldtype": "Data",
+			"in_list_view": 1,
+			"label": "Department Name",
+			"reqd": 1,
+			"unique": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "column_break_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "parent_department",
+			"fieldtype": "Link",
+			"label": "Parent Department",
+			"options": "HR Department"
+		},
+		{
+			"fieldname": "department_head",
+			"fieldtype": "Link",
+			"label": "Department Head",
+			"options": "Employee"
+		},
+		{
+			"default": "0",
+			"fieldname": "is_group",
+			"fieldtype": "Check",
+			"label": "Is Group"
+		},
+		{
+			"fieldname": "section_break_1",
+			"fieldtype": "Section Break"
+		},
+		{
+			"fieldname": "cost_center",
+			"fieldtype": "Link",
+			"label": "Cost Center",
+			"options": "Cost Center"
+		},
+		{
+			"fieldname": "description",
+			"fieldtype": "Small Text",
+			"label": "Description"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"links": [],
+	"modified": "2026-08-06 10:00:00",
+	"modified_by": "Administrator",
+	"module": "Omnexa Hr",
+	"name": "HR Department",
+	"naming_rule": "By fieldname",
+	"owner": "Administrator",
+	"permissions": [
+		{"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "export": 1, "report": 1},
+		{"role": "HR Manager", "read": 1, "write": 1, "create": 1, "delete": 1, "export": 1, "report": 1},
+		{"role": "HR User", "read": 1, "write": 1, "create": 1, "report": 1}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
+}

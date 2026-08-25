@@ -13,7 +13,7 @@
  "documentation_url": "https://frappe.io/framework",
  "idx": 0,
  "is_complete": 0,
- "modified": "2026-07-27 22:05:03.411001",
+ "modified": "2026-08-25 18:02:40.565668",
  "modified_by": "Administrator",
  "module": "Omnexa Hr",
  "name": "ERPGENEX \u2014 HR",
@@ -23,13 +23,13 @@
    "step": "ERPGENEX-WS-hr-01-page-hr_executive_dashboard"
   },
   {
-   "step": "ERPGENEX-WS-hr-02-page-hr_employee_self_service"
+   "step": "ERPGENEX-WS-hr-02-page-hr_analytics_dashboard"
   },
   {
-   "step": "ERPGENEX-WS-hr-03-employee"
+   "step": "ERPGENEX-WS-hr-03-page-hr_employee_self_service"
   },
   {
-   "step": "ERPGENEX-WS-hr-04-hr_leave_type"
+   "step": "ERPGENEX-WS-hr-04-page-hr_operations_desk"
   },
   {
    "step": "ERPGENEX-WS-hr-home"

@@ -1,0 +1,128 @@
+{
+	"actions": [],
+	"allow_import": 1,
+	"autoname": "hash",
+	"creation": "2026-08-06 10:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"employee",
+		"employee_name",
+		"company",
+		"branch",
+		"column_break_1",
+		"leave_type",
+		"fiscal_year",
+		"section_break_1",
+		"allocated_days",
+		"used_days",
+		"pending_days",
+		"column_break_2",
+		"balance_days",
+		"carried_forward_days"
+	],
+	"fields": [
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Employee",
+			"options": "Employee",
+			"reqd": 1
+		},
+		{
+			"fetch_from": "employee.employee_name",
+			"fieldname": "employee_name",
+			"fieldtype": "Data",
+			"label": "Employee Name",
+			"read_only": 1
+		},
+		{
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Company",
+			"options": "Company",
+			"reqd": 1
+		},
+		{
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Branch",
+			"options": "Branch"
+		},
+		{
+			"fieldname": "column_break_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "leave_type",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Leave Type",
+			"options": "HR Leave Type",
+			"reqd": 1
+		},
+		{
+			"fieldname": "fiscal_year",
+			"fieldtype": "Data",
+			"in_list_view": 1,
+			"label": "Fiscal Year",
+			"reqd": 1
+		},
+		{
+			"fieldname": "section_break_1",
+			"fieldtype": "Section Break"
+		},
+		{
+			"fieldname": "allocated_days",
+			"fieldtype": "Float",
+			"label": "Allocated Days",
+			"reqd": 1
+		},
+		{
+			"default": "0",
+			"fieldname": "used_days",
+			"fieldtype": "Float",
+			"label": "Used Days",
+			"read_only": 1
+		},
+		{
+			"default": "0",
+			"fieldname": "pending_days",
+			"fieldtype": "Float",
+			"label": "Pending Days",
+			"read_only": 1
+		},
+		{
+			"fieldname": "column_break_2",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "balance_days",
+			"fieldtype": "Float",
+			"in_list_view": 1,
+			"label": "Balance Days",
+			"read_only": 1
+		},
+		{
+			"default": "0",
+			"fieldname": "carried_forward_days",
+			"fieldtype": "Float",
+			"label": "Carried Forward Days"
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"module": "Omnexa Hr",
+	"name": "HR Leave Balance",
+	"permissions": [
+		{"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+		{"role": "HR Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+		{"role": "HR User", "read": 1, "write": 1, "create": 1},
+		{"role": "HR Employee", "read": 1}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
+}

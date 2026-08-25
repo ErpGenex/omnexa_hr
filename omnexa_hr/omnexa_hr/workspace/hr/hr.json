@@ -1,19 +1,23 @@
 {
  "charts": [
   {
-   "chart_name": "HR · Status Bar",
-   "label": "Status Bar"
+   "chart_name": "HR \u00b7 HR Attendance Trend",
+   "label": "HR \u00b7 HR Attendance Trend"
   },
   {
-   "chart_name": "HR · HR Recruitment Request Mix",
-   "label": "HR Recruitment Request Mix"
+   "chart_name": "HR \u00b7 HR Leave Application Trend",
+   "label": "HR \u00b7 HR Leave Application Trend"
   },
   {
-   "chart_name": "HR · HR Attendance Mix",
-   "label": "HR Attendance Mix"
+   "chart_name": "HR \u00b7 HR Recruitment Request Trend",
+   "label": "HR \u00b7 HR Recruitment Request Trend"
+  },
+  {
+   "chart_name": "HR \u00b7 HR Attendance Vol",
+   "label": "HR \u00b7 HR Attendance Vol"
   }
  ],
- "content": "[{\"id\": \"hr-settings-h\", \"type\": \"header\", \"data\": {\"text\": \"<b>⚙ Settings</b>\", \"col\": 12}}, {\"id\": \"hr-settings-s1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Payroll Company Settings\", \"col\": 3}}, {\"id\": \"erpgenex-onboarding\", \"type\": \"onboarding\", \"data\": {\"onboarding_name\": \"ERPGENEX — HR\", \"col\": 12}}, {\"id\": \"hr-h\", \"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>HR</b></span>\", \"col\": 12}}, {\"id\": \"hr-ops\", \"type\": \"header\", \"data\": {\"text\": \"<b>📌 Operations</b>\", \"col\": 12}}, {\"id\": \"hr-opg0\", \"type\": \"header\", \"data\": {\"text\": \"<b>Core Transactions</b>\", \"col\": 12}}, {\"id\": \"hr-op1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Employee\", \"col\": 2}}, {\"id\": \"hr-op2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Recruitment Request\", \"col\": 2}}, {\"id\": \"hr-op3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Attendance\", \"col\": 2}}, {\"id\": \"hr-op4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Leave Application\", \"col\": 2}}, {\"id\": \"hr-op5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Payroll Entry\", \"col\": 2}}, {\"id\": \"hr-opg6\", \"type\": \"header\", \"data\": {\"text\": \"<b>Supporting Processes</b>\", \"col\": 12}}, {\"id\": \"hr-op7\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Interview\", \"col\": 2}}, {\"id\": \"hr-op8\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Training Record\", \"col\": 2}}, {\"id\": \"hr-opg9\", \"type\": \"header\", \"data\": {\"text\": \"<b>Masters</b>\", \"col\": 12}}, {\"id\": \"hr-op10\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Leave Type\", \"col\": 2}}, {\"id\": \"hr-op11\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Leave Policy\", \"col\": 2}}, {\"id\": \"hr-rpt\", \"type\": \"header\", \"data\": {\"text\": \"<b>📊 Reports</b>\", \"col\": 12}}, {\"id\": \"hr-rp0\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Headcount\", \"col\": 3}}, {\"id\": \"hr-rp1\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Attendance Summary\", \"col\": 3}}, {\"id\": \"hr-rp2\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Leave Application Summary\", \"col\": 3}}, {\"id\": \"hr-rp3\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Payroll Summary\", \"col\": 3}}, {\"id\": \"hr-rp4\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Training Summary\", \"col\": 3}}, {\"id\": \"hr-rp5\", \"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"HR Recruitment Pipeline\", \"col\": 3}}, {\"id\": \"hr-kpi\", \"type\": \"header\", \"data\": {\"text\": \"<b>📊 KPIs</b>\", \"col\": 12}}, {\"id\": \"hr-nc0\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Core Transactions: HR Recruitment Request\", \"col\": 4}}, {\"id\": \"hr-nc1\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Core Transactions: HR Attendance\", \"col\": 4}}, {\"id\": \"hr-nc2\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Core Transactions: HR Leave Application\", \"col\": 4}}, {\"id\": \"hr-nc3\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Core Transactions: HR Payroll Entry\", \"col\": 4}}, {\"id\": \"hr-nc4\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Supporting Processes: HR Interview\", \"col\": 4}}, {\"id\": \"hr-nc5\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Supporting Processes: HR Training Record\", \"col\": 4}}, {\"id\": \"hr-nc6\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Masters: HR Leave Type\", \"col\": 4}}, {\"id\": \"hr-nc7\", \"type\": \"number_card\", \"data\": {\"number_card_name\": \"Core Transactions: Employee\", \"col\": 4}}, {\"id\": \"hr-chr\", \"type\": \"header\", \"data\": {\"text\": \"<b>📈 Charts</b>\", \"col\": 12}}, {\"id\": \"hr-ch0\", \"type\": \"chart\", \"data\": {\"chart_name\": \"Status Bar\", \"col\": 4}}, {\"id\": \"hr-ch1\", \"type\": \"chart\", \"data\": {\"chart_name\": \"HR Recruitment Request Mix\", \"col\": 4}}, {\"id\": \"hr-ch2\", \"type\": \"chart\", \"data\": {\"chart_name\": \"HR Attendance Mix\", \"col\": 4}}]",
+ "content": "[{\"id\":\"erpgenex-onboarding\",\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"ERPGENEX \\u2014 HR\",\"col\":12}},{\"id\":\"hr-title\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>HR</b></span>\",\"col\":12}},{\"id\":\"hr-sec-0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udcca Dashboards</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HR Dashboard\",\"col\":4}},{\"id\":\"hr-lnk-1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Executive Dashboard\",\"col\":4}},{\"id\":\"hr-lnk-2\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Analytics Dashboard\",\"col\":4}},{\"id\":\"hr-lnk-3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Self-Service\",\"col\":4}},{\"id\":\"hr-lnk-4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Operations Desk\",\"col\":4}},{\"id\":\"hr-sp-1\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udc65 Workforce</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Directory\",\"col\":4}},{\"id\":\"hr-lnk-6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":4}},{\"id\":\"hr-lnk-7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Department\",\"col\":4}},{\"id\":\"hr-lnk-8\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Shift Type\",\"col\":4}},{\"id\":\"hr-sp-2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83c\\udfaf Talent Acquisition</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Recruitment Request\",\"col\":4}},{\"id\":\"hr-lnk-10\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Job Applicant\",\"col\":4}},{\"id\":\"hr-lnk-11\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Interview\",\"col\":4}},{\"id\":\"hr-sp-3\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-3\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\u23f1 Attendance & Biometric</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-12\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance\",\"col\":4}},{\"id\":\"hr-lnk-13\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Biometric Device\",\"col\":4}},{\"id\":\"hr-lnk-14\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Punch Log\",\"col\":4}},{\"id\":\"hr-sp-4\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83c\\udfd6 Leave</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-15\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Type\",\"col\":4}},{\"id\":\"hr-lnk-16\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Balance\",\"col\":4}},{\"id\":\"hr-lnk-17\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":4}},{\"id\":\"hr-sp-5\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-5\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udcda Learning & Performance</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-18\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Training Record\",\"col\":4}},{\"id\":\"hr-lnk-19\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Appraisal\",\"col\":4}},{\"id\":\"hr-sp-6\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-6\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udcb0 Payroll & Benefits</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-20\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Run\",\"col\":4}},{\"id\":\"hr-lnk-21\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Salary Slip\",\"col\":4}},{\"id\":\"hr-lnk-22\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Entry\",\"col\":4}},{\"id\":\"hr-lnk-23\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Salary Advance\",\"col\":4}},{\"id\":\"hr-lnk-24\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"End of Service\",\"col\":4}},{\"id\":\"hr-sp-7\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udcc8 Reports</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-25\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Headcount\",\"col\":4}},{\"id\":\"hr-lnk-26\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance Summary\",\"col\":4}},{\"id\":\"hr-lnk-27\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Summary\",\"col\":4}},{\"id\":\"hr-lnk-28\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Register\",\"col\":4}},{\"id\":\"hr-lnk-29\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Recruitment Pipeline\",\"col\":4}},{\"id\":\"hr-lnk-30\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Training Summary\",\"col\":4}},{\"id\":\"hr-sp-8\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-sec-8\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\u2699 Setup</b></span>\",\"col\":12}},{\"id\":\"hr-lnk-31\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"HR Settings\",\"col\":4}},{\"id\":\"hr-lnk-32\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payroll Settings\",\"col\":4}},{\"id\":\"hr-kpi-sp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-kpi-h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udcca KPIs</b></span>\",\"col\":12}},{\"id\":\"hr-nc-0\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Employees\",\"col\":4}},{\"id\":\"hr-nc-1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Attendance Rows\",\"col\":4}},{\"id\":\"hr-nc-2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Leave Applications\",\"col\":4}},{\"id\":\"hr-nc-3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Recruitment Requests\",\"col\":4}},{\"id\":\"hr-nc-4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Interviews\",\"col\":4}},{\"id\":\"hr-nc-5\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Payroll Batches\",\"col\":4}},{\"id\":\"hr-nc-6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Training Records\",\"col\":4}},{\"id\":\"hr-nc-7\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"HR End of Service Settlement\",\"col\":4}},{\"id\":\"hr-nc-8\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"HR Leave Type\",\"col\":4}},{\"id\":\"hr-nc-9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"HR Payroll Company Settings\",\"col\":4}},{\"id\":\"hr-ch-sp\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"hr-ch-h\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>\\ud83d\\udcc8 Charts</b></span>\",\"col\":12}},{\"id\":\"hr-ch-0\",\"type\":\"chart\",\"data\":{\"chart_name\":\"HR \\u00b7 HR Attendance Trend\",\"col\":4}},{\"id\":\"hr-ch-1\",\"type\":\"chart\",\"data\":{\"chart_name\":\"HR \\u00b7 HR Leave Application Trend\",\"col\":4}},{\"id\":\"hr-ch-2\",\"type\":\"chart\",\"data\":{\"chart_name\":\"HR \\u00b7 HR Recruitment Request Trend\",\"col\":4}},{\"id\":\"hr-ch-3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"HR \\u00b7 HR Attendance Vol\",\"col\":4}}]",
  "creation": "2026-04-15 00:03:16.652868",
  "custom_blocks": [],
  "docstatus": 0,
@@ -28,7 +32,395 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "📌 Operations",
+   "label": "\ud83d\udcca Dashboards",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "HR Dashboard",
+   "link_count": 0,
+   "link_to": "hr-dashboard",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Executive Dashboard",
+   "link_count": 0,
+   "link_to": "hr-executive-dashboard",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Analytics Dashboard",
+   "link_count": 0,
+   "link_to": "hr-analytics-dashboard",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Self-Service",
+   "link_count": 0,
+   "link_to": "hr-employee-self-service",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Operations Desk",
+   "link_count": 0,
+   "link_to": "hr-operations-desk",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udc65 Workforce",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Directory",
+   "link_count": 0,
+   "link_to": "employee-directory",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee",
+   "link_count": 0,
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Department",
+   "link_count": 0,
+   "link_to": "HR Department",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shift Type",
+   "link_count": 0,
+   "link_to": "HR Shift Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83c\udfaf Talent Acquisition",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Recruitment Request",
+   "link_count": 0,
+   "link_to": "HR Recruitment Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Job Applicant",
+   "link_count": 0,
+   "link_to": "HR Job Applicant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Interview",
+   "link_count": 0,
+   "link_to": "HR Interview",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u23f1 Attendance & Biometric",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Attendance",
+   "link_count": 0,
+   "link_to": "HR Attendance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Biometric Device",
+   "link_count": 0,
+   "link_to": "HR Biometric Device",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Punch Log",
+   "link_count": 0,
+   "link_to": "HR Biometric Punch Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83c\udfd6 Leave",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Type",
+   "link_count": 0,
+   "link_to": "HR Leave Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Balance",
+   "link_count": 0,
+   "link_to": "HR Leave Balance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Leave Application",
+   "link_count": 0,
+   "link_to": "HR Leave Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcda Learning & Performance",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Training Record",
+   "link_count": 0,
+   "link_to": "HR Training Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Appraisal",
+   "link_count": 0,
+   "link_to": "HR Employee Appraisal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcb0 Payroll & Benefits",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Run",
+   "link_count": 0,
+   "link_to": "HR Payroll Run",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Slip",
+   "link_count": 0,
+   "link_to": "HR Salary Slip",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Entry",
+   "link_count": 0,
+   "link_to": "HR Payroll Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Advance",
+   "link_count": 0,
+   "link_to": "HR Salary Advance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "End of Service",
+   "link_count": 0,
+   "link_to": "HR End of Service Settlement",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\ud83d\udcc8 Reports",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Headcount",
+   "link_count": 0,
+   "link_to": "HR Headcount",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Employee",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Attendance Summary",
+   "link_count": 0,
+   "link_to": "HR Attendance Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "HR Attendance",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Leave Summary",
+   "link_count": 0,
+   "link_to": "HR Leave Application Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "HR Leave Application",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Payroll Register",
+   "link_count": 0,
+   "link_to": "HR Payroll Register",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "HR Payroll Entry",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Recruitment Pipeline",
+   "link_count": 0,
+   "link_to": "HR Recruitment Pipeline",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "HR Recruitment Request",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Training Summary",
+   "link_count": 0,
+   "link_to": "HR Training Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "HR Training Record",
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u2699 Setup",
    "link_count": 0,
    "link_type": "DocType",
    "onboard": 0,
@@ -39,356 +431,276 @@
    "is_query_report": 0,
    "label": "HR Settings",
    "link_count": 0,
+   "link_to": "HR Settings",
+   "link_type": "DocType",
    "onboard": 0,
-   "type": "Card Break"
+   "type": "Link"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "HR Payroll Company Settings",
+   "label": "Payroll Settings",
    "link_count": 0,
    "link_to": "HR Payroll Company Settings",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Core Transactions: Employee",
-   "link_count": 0,
-   "link_to": "Employee",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Core Transactions: HR Recruitment Request",
-   "link_count": 0,
-   "link_to": "HR Recruitment Request",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Core Transactions: HR Attendance",
-   "link_count": 0,
-   "link_to": "HR Attendance",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Core Transactions: HR Leave Application",
-   "link_count": 0,
-   "link_to": "HR Leave Application",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Core Transactions: HR Payroll Entry",
-   "link_count": 0,
-   "link_to": "HR Payroll Entry",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Supporting Processes: HR Interview",
-   "link_count": 0,
-   "link_to": "HR Interview",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Supporting Processes: HR Training Record",
-   "link_count": 0,
-   "link_to": "HR Training Record",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Masters: HR Leave Type",
-   "link_count": 0,
-   "link_to": "HR Leave Type",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Masters: Leave Policy",
-   "link_count": 0,
-   "link_to": "Leave Policy",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Payroll engine · Salary Slip",
-   "link_count": 0,
-   "link_to": "HR Salary Slip",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Payroll engine · Payroll Run",
-   "link_count": 0,
-   "link_to": "HR Payroll Run",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Payroll engine · Salary Advance",
-   "link_count": 0,
-   "link_to": "HR Salary Advance",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Payroll engine · End of Service",
-   "link_count": 0,
-   "link_to": "HR End of Service Settlement",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "📊 Reports",
-   "link_count": 0,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Headcount",
-   "link_count": 0,
-   "link_to": "HR Headcount",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "Employee",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Attendance Summary",
-   "link_count": 0,
-   "link_to": "HR Attendance Summary",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "HR Attendance",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Leave Application Summary",
-   "link_count": 0,
-   "link_to": "HR Leave Application Summary",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "HR Leave Application",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Payroll Summary",
-   "link_count": 0,
-   "link_to": "HR Payroll Summary",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "HR Payroll Entry",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Salary Slip Register",
-   "link_count": 0,
-   "link_to": "HR Salary Slip Register",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "HR Salary Slip",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Training Summary",
-   "link_count": 0,
-   "link_to": "HR Training Summary",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "HR Training Record",
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "HR Recruitment Pipeline",
-   "link_count": 0,
-   "link_to": "HR Recruitment Pipeline",
-   "link_type": "Report",
-   "onboard": 0,
-   "report_ref_doctype": "HR Recruitment Request",
-   "type": "Link"
   }
  ],
- "modified": "2026-04-18 20:24:56.840511",
+ "modified": "2026-08-06 15:22:51.251048",
  "modified_by": "Administrator",
  "module": "Omnexa Hr",
  "name": "HR",
  "number_cards": [
   {
-   "label": "Core Transactions: HR Recruitment Request",
-   "number_card_name": "Core Transactions: HR Recruitment Request"
+   "label": "Employees",
+   "number_card_name": "Employees"
   },
   {
-   "label": "Core Transactions: HR Attendance",
-   "number_card_name": "Core Transactions: HR Attendance"
+   "label": "Attendance Rows",
+   "number_card_name": "Attendance Rows"
   },
   {
-   "label": "Core Transactions: HR Leave Application",
-   "number_card_name": "Core Transactions: HR Leave Application"
+   "label": "Leave Applications",
+   "number_card_name": "Leave Applications"
   },
   {
-   "label": "Core Transactions: HR Payroll Entry",
-   "number_card_name": "Core Transactions: HR Payroll Entry"
+   "label": "Recruitment Requests",
+   "number_card_name": "Recruitment Requests"
   },
   {
-   "label": "Supporting Processes: HR Interview",
-   "number_card_name": "Supporting Processes: HR Interview"
+   "label": "Interviews",
+   "number_card_name": "Interviews"
   },
   {
-   "label": "Supporting Processes: HR Training Record",
-   "number_card_name": "Supporting Processes: HR Training Record"
+   "label": "Payroll Batches",
+   "number_card_name": "Payroll Batches"
   },
   {
-   "label": "Masters: HR Leave Type",
-   "number_card_name": "Masters: HR Leave Type"
+   "label": "Training Records",
+   "number_card_name": "Training Records"
   },
   {
-   "label": "Core Transactions: Employee",
-   "number_card_name": "Core Transactions: Employee"
+   "label": "HR End of Service Settlement",
+   "number_card_name": "HR End of Service Settlement"
+  },
+  {
+   "label": "HR Leave Type",
+   "number_card_name": "HR Leave Type"
+  },
+  {
+   "label": "HR Payroll Company Settings",
+   "number_card_name": "HR Payroll Company Settings"
   }
  ],
  "owner": "Administrator",
- "parent_page": "",
+ "parent_page": "ERP",
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 8.0,
+ "sequence_id": 2.1,
  "shortcuts": [
   {
-   "color": "Cyan",
-   "doc_view": "List",
-   "label": "Core Transactions: Employee",
-   "link_to": "Employee",
-   "type": "DocType"
-  },
-  {
    "color": "Blue",
-   "doc_view": "List",
-   "label": "Core Transactions: HR Recruitment Request",
-   "link_to": "HR Recruitment Request",
-   "type": "DocType"
-  },
-  {
-   "color": "Purple",
-   "doc_view": "List",
-   "label": "Core Transactions: HR Attendance",
-   "link_to": "HR Attendance",
-   "type": "DocType"
-  },
-  {
-   "color": "Orange",
-   "doc_view": "List",
-   "label": "Core Transactions: HR Leave Application",
-   "link_to": "HR Leave Application",
-   "type": "DocType"
+   "doc_view": "",
+   "label": "HR Dashboard",
+   "link_to": "hr-dashboard",
+   "type": "Page"
   },
   {
    "color": "Green",
-   "doc_view": "List",
-   "label": "Core Transactions: HR Payroll Entry",
-   "link_to": "HR Payroll Entry",
-   "type": "DocType"
+   "doc_view": "",
+   "label": "Executive Dashboard",
+   "link_to": "hr-executive-dashboard",
+   "type": "Page"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "",
+   "label": "Analytics Dashboard",
+   "link_to": "hr-analytics-dashboard",
+   "type": "Page"
   },
   {
    "color": "Red",
-   "doc_view": "List",
-   "label": "Supporting Processes: HR Interview",
-   "link_to": "HR Interview",
-   "type": "DocType"
+   "doc_view": "",
+   "label": "Employee Self-Service",
+   "link_to": "hr-employee-self-service",
+   "type": "Page"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "",
+   "label": "Operations Desk",
+   "link_to": "hr-operations-desk",
+   "type": "Page"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "",
+   "label": "Employee Directory",
+   "link_to": "employee-directory",
+   "type": "Page"
   },
   {
    "color": "Teal",
    "doc_view": "List",
-   "label": "Supporting Processes: HR Training Record",
-   "link_to": "HR Training Record",
+   "label": "Employee",
+   "link_to": "Employee",
    "type": "DocType"
   },
   {
    "color": "Pink",
    "doc_view": "List",
-   "label": "Masters: HR Leave Type",
-   "link_to": "HR Leave Type",
+   "label": "Department",
+   "link_to": "HR Department",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Shift Type",
+   "link_to": "HR Shift Type",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Recruitment Request",
+   "link_to": "HR Recruitment Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Job Applicant",
+   "link_to": "HR Job Applicant",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Interview",
+   "link_to": "HR Interview",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Attendance",
+   "link_to": "HR Attendance",
    "type": "DocType"
   },
   {
    "color": "Cyan",
    "doc_view": "List",
-   "label": "Masters: Leave Policy",
-   "link_to": "Leave Policy",
+   "label": "Biometric Device",
+   "link_to": "HR Biometric Device",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Punch Log",
+   "link_to": "HR Biometric Punch Log",
+   "type": "DocType"
+  },
+  {
+   "color": "Teal",
+   "doc_view": "List",
+   "label": "Leave Type",
+   "link_to": "HR Leave Type",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Leave Balance",
+   "link_to": "HR Leave Balance",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Leave Application",
+   "link_to": "HR Leave Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Training Record",
+   "link_to": "HR Training Record",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Employee Appraisal",
+   "link_to": "HR Employee Appraisal",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Payroll Run",
+   "link_to": "HR Payroll Run",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Salary Slip",
+   "link_to": "HR Salary Slip",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Payroll Entry",
+   "link_to": "HR Payroll Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "Salary Advance",
+   "link_to": "HR Salary Advance",
+   "type": "DocType"
+  },
+  {
+   "color": "Teal",
+   "doc_view": "List",
+   "label": "End of Service",
+   "link_to": "HR End of Service Settlement",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "HR Settings",
+   "link_to": "HR Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Payroll Settings",
+   "link_to": "HR Payroll Company Settings",
    "type": "DocType"
   },
   {
    "color": "Blue",
    "doc_view": "",
-   "label": "HR Headcount",
+   "label": "Headcount",
    "link_to": "HR Headcount",
    "report_ref_doctype": "Employee",
    "type": "Report"
   },
   {
-   "color": "Purple",
+   "color": "Green",
    "doc_view": "",
-   "label": "HR Attendance Summary",
+   "label": "Attendance Summary",
    "link_to": "HR Attendance Summary",
    "report_ref_doctype": "HR Attendance",
    "type": "Report"
@@ -396,33 +708,33 @@
   {
    "color": "Orange",
    "doc_view": "",
-   "label": "HR Leave Application Summary",
+   "label": "Leave Summary",
    "link_to": "HR Leave Application Summary",
    "report_ref_doctype": "HR Leave Application",
    "type": "Report"
   },
   {
-   "color": "Green",
+   "color": "Red",
    "doc_view": "",
-   "label": "HR Payroll Summary",
-   "link_to": "HR Payroll Summary",
+   "label": "Payroll Register",
+   "link_to": "HR Payroll Register",
    "report_ref_doctype": "HR Payroll Entry",
    "type": "Report"
   },
   {
-   "color": "Red",
+   "color": "Cyan",
    "doc_view": "",
-   "label": "HR Training Summary",
-   "link_to": "HR Training Summary",
-   "report_ref_doctype": "HR Training Record",
+   "label": "Recruitment Pipeline",
+   "link_to": "HR Recruitment Pipeline",
+   "report_ref_doctype": "HR Recruitment Request",
    "type": "Report"
   },
   {
-   "color": "Teal",
+   "color": "Purple",
    "doc_view": "",
-   "label": "HR Recruitment Pipeline",
-   "link_to": "HR Recruitment Pipeline",
-   "report_ref_doctype": "HR Recruitment Request",
+   "label": "Training Summary",
+   "link_to": "HR Training Summary",
+   "report_ref_doctype": "HR Training Record",
    "type": "Report"
   }
  ],

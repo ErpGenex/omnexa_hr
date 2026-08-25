@@ -1,0 +1,119 @@
+{
+	"actions": [],
+	"autoname": "hash",
+	"creation": "2026-08-06 10:00:00",
+	"doctype": "DocType",
+	"engine": "InnoDB",
+	"field_order": [
+		"device",
+		"company",
+		"branch",
+		"column_break_1",
+		"employee",
+		"employee_name",
+		"raw_user_id",
+		"section_break_1",
+		"punch_datetime",
+		"punch_type",
+		"column_break_2",
+		"processed",
+		"hr_attendance"
+	],
+	"fields": [
+		{
+			"fieldname": "device",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Biometric Device",
+			"options": "HR Biometric Device",
+			"reqd": 1
+		},
+		{
+			"fetch_from": "device.company",
+			"fieldname": "company",
+			"fieldtype": "Link",
+			"label": "Company",
+			"options": "Company",
+			"read_only": 1
+		},
+		{
+			"fetch_from": "device.branch",
+			"fieldname": "branch",
+			"fieldtype": "Link",
+			"label": "Branch",
+			"options": "Branch",
+			"read_only": 1
+		},
+		{
+			"fieldname": "column_break_1",
+			"fieldtype": "Column Break"
+		},
+		{
+			"fieldname": "employee",
+			"fieldtype": "Link",
+			"in_list_view": 1,
+			"label": "Employee",
+			"options": "Employee"
+		},
+		{
+			"fieldname": "employee_name",
+			"fieldtype": "Data",
+			"label": "Employee Name",
+			"read_only": 1
+		},
+		{
+			"fieldname": "raw_user_id",
+			"fieldtype": "Data",
+			"in_list_view": 1,
+			"label": "Raw User ID",
+			"reqd": 1
+		},
+		{
+			"fieldname": "section_break_1",
+			"fieldtype": "Section Break"
+		},
+		{
+			"fieldname": "punch_datetime",
+			"fieldtype": "Datetime",
+			"in_list_view": 1,
+			"label": "Punch Datetime",
+			"reqd": 1
+		},
+		{
+			"fieldname": "punch_type",
+			"fieldtype": "Select",
+			"in_list_view": 1,
+			"label": "Punch Type",
+			"options": "IN\nOUT\nUnknown",
+			"default": "Unknown"
+		},
+		{
+			"fieldname": "column_break_2",
+			"fieldtype": "Column Break"
+		},
+		{
+			"default": "0",
+			"fieldname": "processed",
+			"fieldtype": "Check",
+			"label": "Processed"
+		},
+		{
+			"fieldname": "hr_attendance",
+			"fieldtype": "Link",
+			"label": "HR Attendance",
+			"options": "HR Attendance",
+			"read_only": 1
+		}
+	],
+	"index_web_pages_for_search": 1,
+	"module": "Omnexa Hr",
+	"name": "HR Biometric Punch Log",
+	"permissions": [
+		{"role": "System Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+		{"role": "HR Manager", "read": 1, "write": 1, "create": 1, "delete": 1},
+		{"role": "HR User", "read": 1, "write": 1, "create": 1}
+	],
+	"sort_field": "modified",
+	"sort_order": "DESC",
+	"track_changes": 1
+}

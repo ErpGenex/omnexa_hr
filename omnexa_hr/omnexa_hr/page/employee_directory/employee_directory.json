@@ -1,0 +1,15 @@
+{
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "employee-directory",
+	"page_name": "employee-directory",
+	"standard": "Yes",
+	"title": "Employee Directory",
+	"roles": [
+		{"role": "System Manager"},
+		{"role": "Company Admin"},
+		{"role": "HR Manager"},
+		{"role": "HR User"},
+		{"role": "HR Employee"}
+	]
+}

@@ -1,0 +1,23 @@
+{
+ "action": "Go to Page",
+ "action_label": "Open",
+ "callback_message": "Use the journey sidebar and work scenarios on this page, then click Continue.",
+ "callback_title": "Analytics Dashboard",
+ "creation": "2026-08-06 15:20:28.706299",
+ "description": "Jump to the **Analytics Dashboard** page.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-08-22 22:50:18.516635",
+ "modified_by": "Administrator",
+ "name": "ERPGENEX-WS-hr-03-page-hr_analytics_dashboard",
+ "owner": "Administrator",
+ "path": "hr-analytics-dashboard",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Open Analytics Dashboard",
+ "validate_action": 1
+}

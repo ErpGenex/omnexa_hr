@@ -1,16 +1,29 @@
 {
-	"doctype": "Page",
-	"module": "Omnexa Hr",
-	"name": "hr-operations-desk",
-	"page_name": "hr-operations-desk",
-	"standard": "Yes",
-	"title": "Operations Desk",
-	"roles": [
-		{
-			"role": "System Manager"
-		},
-		{
-			"role": "Company Admin"
-		}
-	]
+ "content": null,
+ "creation": "2026-08-25 17:59:07.843339",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2026-08-25 19:03:26.753665",
+ "modified_by": "Administrator",
+ "module": "Omnexa Hr",
+ "name": "hr-operations-desk",
+ "owner": "Administrator",
+ "page_name": "hr-operations-desk",
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Company Admin"
+  },
+  {
+   "role": "Desk User"
+  }
+ ],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Operations Desk"
 }
