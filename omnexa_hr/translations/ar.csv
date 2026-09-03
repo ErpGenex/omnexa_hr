@@ -1,232 +1,679 @@
-Absent,Absent
+Absent,غائب
 Accounting,المحاسبة
-Accrual journal entry,Accrual يومية قيد
-Advance Amount,Advance مبلغ
-Advance Date,Advance تاريخ
-Allowances,Allowances
-Amount,مبلغ
-Applications,طلبات
-Appraiser,Appraiser
+Accounts Manager,بند واجهة
+Accounts Payable,الذمم الدائنة
+Accounts Receivable,الذمم المدينة
+Accounts User,بند واجهة
+Accrual journal entry,بند واجهة
+Actions,إجراءات
+Active,نشط
+Add Department,بند واجهة
+Add Employee,بند واجهة
+Administrator,المسؤول
+Advance Amount,بند واجهة
+Advance Date,بند واجهة
+Agency,بند واجهة
+Agriculture,الزراعة
+AI & Intelligence,الذكاء الاصطناعي والتحليلات
+All,الكل
+All activities,كل الأنشطة
+All branches,كل الفروع
+Allocated Days,بند واجهة
+Allowances,بند واجهة
+ALM,إدارة الأصول والخصوم
+Amount,المبلغ
+Analytics Dashboard,لوحة التحليلات
+Annual Leave,بند واجهة
+Applicant Name,بند واجهة
+Applications,بند واجهة
+Appraiser,بند واجهة
 Approval,موافقة
-Approval and Justification,موافقة و Justification
-Approval and Reason,موافقة و Reason
-Approver,Approver
-Attendance,Attendance
-Attendance & Payroll,Attendance & Payroll
-Attendance Date,Attendance تاريخ
-Attendance Source,Attendance Source
-Attendance Window,Attendance Window
-Basic Salary,Basic Salary
-Bonus,Bonus
+Approval and Justification,بند واجهة
+Approval and Reason,موافقة و السبب
+Approved,معتمد
+Approver,بند واجهة
+Asset Insurance,تأمين الأصول
+Assigned To,مُسند إلى
+Assigned To Me,المُسند إليّ
+Attachments,المرفقات
+Attendance,الحضور
+Attendance Date,الحضور التاريخ
+Attendance Overview,الحضور نظرة عامة
+Attendance Source,الحضور المصدر
+Attendance Window,بند واجهة
+Audit,التدقيق
+Aug 12,بند واجهة
+Auto Sync Biometric Devices,بند واجهة
+Average Attendance,بند واجهة
+Average Late,بند واجهة
+Balance Days,بند واجهة
+Balance Sheet,الميزانية العمومية
+Bank Unmatched Statement Lines,بنود كشف بنك غير مطابقة
+Basic Salary,بند واجهة
+Behavioral,بند واجهة
+Best Day,بند واجهة
+Billing & collections,الفوترة والتحصيل
+Biometric,بند واجهة
+Biometric / Attendance,بند واجهة / الحضور
+Biometric Device,بند واجهة
+biometric_user_id,بند واجهة
+Bonus,بند واجهة
+Bookings & registration,الحجوزات والتسجيل
+BOQ,جدول الكميات
 Branch,الفرع
-Branch is required to post payroll accrual journal.,فرع is required إلى post payroll accrual يومية.
-Candidate Name,Candidate اسم
-Carry Forward Days,Carry Forward Days
-Certificate URL,Certificate URL
-Check In,فحص In
-Check Out,فحص Out
+Branch is required to post payroll accrual journal.,بند واجهة
+Budget & cost control,الميزانية وضبط التكلفة
+Buy,المشتريات
+CAM & recoveries,المصاريف المشتركة والاستردادات
+CAM Budget,ميزانية المصاريف المشتركة
+Campaign ROI,عائد الحملة
+Campus,بند واجهة
+Cancel,إلغاء
+Cancelled,ملغى
+Candidate Name,بند واجهة
+Car Rental,تأجير السيارات
+Card Break,قسم
+Carried Forward Days,بند واجهة
+Carry Forward Days,بند واجهة
+Casual Leave,بند واجهة
+Certificate URL,URL — بند واجهة
+Chart,مخطط
+Chart of Accounts,دليل الحسابات
+Check In,بند واجهة
+Check Out,بند واجهة
+Closed,مغلق
+Commission Accrual,استحقاق العمولات
+Commission Schedule,جدول العمولات
 Company,الشركة
-Company & branch,شركة & فرع
-Company is required,شركة is required
-Company is required.,شركة is required.
-Competency Score,Competency درجة
-Completion,Completion
-Completion Score,Completion درجة
-Compliance and Notes,امتثال و Notes
-Component,Component
-Controls,Controls
-Conversion Rate,Conversion معدل
-Core Transactions: Employee,أساسي Transactions: الموظف
-Core Transactions: HR Attendance,أساسي Transactions: الموارد البشرية Attendance
-Core Transactions: HR Leave Application,أساسي Transactions: الموارد البشرية Leave طلب
-Core Transactions: HR Payroll Entry,أساسي Transactions: الموارد البشرية Payroll قيد
-Core Transactions: HR Recruitment Request,أساسي Transactions: الموارد البشرية Recruitment طلب
-Cost,تكلفة
-Cost and Artifacts,تكلفة و Artifacts
-Create HR Payroll Company Settings for company {0} before submitting a payroll run.,Create الموارد البشرية Payroll شركة إعدادات لـ شركة { 0 } before submitting a payroll run.
-Currency,Currency
+Company & branch,الشركة و الفرع
+Company is required,الشركة is مطلوب
+Company is required.,الشركة is مطلوب.
+Company Townhall Meeting,بند واجهة
+Competency Score,بند واجهة
+Completed,مكتمل
+Completed Trainings,بند واجهة
+Completion,بند واجهة
+Completion Score,بند واجهة
+Compliance and Notes,امتثال و ملاحظات
+Compliance checks complete,اكتملت فحوصات الامتثال
+Compliance Exceptions,استثناءات الامتثال
+Compliance Exceptions (IFRS),استثناءات الامتثال (IFRS)
+Compliance Exceptions (Tax),استثناءات الامتثال (ضريبي)
+Compliance Exceptions Dashboard,لوحة استثناءات الامتثال
+Compliance Reports,تقارير الامتثال
+Component,بند واجهة
+Connection,اتصال
+Construction,المقاولات
+Construction & Engineering,المقاولات والهندسة
+Consumer Finance,التمويل الاستهلاكي
+Controls,بند واجهة
+Conversion Rate,بند واجهة
+Core ERP,ERP الأساسي
+Cost,التكلفة
+Cost and Artifacts,بند واجهة
+Cost Center,مركز التكلفة
+Country,الدولة
+Create,إنشاء
+Create HR Payroll Company Settings for company {0} before submitting a payroll run.,HR — بند واجهة
+Create or review your first **Employee** record from this workspace.,أنشئ أو راجع أول سجل **الموظف** من مساحة العمل هذه.
+Create or review your first **HR Leave Type** record from this workspace.,أنشئ أو راجع أول سجل **HR — بند واجهة** من مساحة العمل هذه.
+Create or review your first **Leave Policy** record from this workspace.,أنشئ أو راجع أول سجل **بند واجهة** من مساحة العمل هذه.
+Create or review your first **User Branch Access** record from this workspace.,أنشئ أو راجع أول سجل **مستخدم الفرع الوصول** من مساحة العمل هذه.
+Credit Engine,محرك الائتمان
+Credit Risk,مخاطر الائتمان
+CRM,إدارة العملاء
+Cross-module operations,عمليات متكاملة
+Currency,العملة
+CUSTOM,بند واجهة
+Custom Documents,المستندات المخصصة
+Customer,العميل
+Customer Portal,العميل بوابة
+Dashboard,لوحة معلومات
 Date,التاريخ
-Deductions,Deductions
-Default Branch (JE posting),افتراضي فرع (JE posting)
-Default cost center,افتراضي تكلفة center
-Department,Department
+Deduction,بند واجهة
+Deductions,بند واجهة
+Default Branch (JE posting),بند واجهة
+Default cost center,بند واجهة
+Default Employee Match Field,بند واجهة
+Default Punch Grace (Minutes),بند واجهة
+Delete,حذف
+Department,بند واجهة
+Department cannot report to itself.,بند واجهة
+Department Head,رئيس القسم
+Department Name,اسم القسم
 Description,الوصف
-Designation,Designation
+Design & quantities (BOQ),التصميم والكميات (جدول الكميات)
+Designation,بند واجهة
+Desk,المكتب
 Details,التفاصيل
-Docstatus,Docstatus
-Earnings and Deductions,Earnings و Deductions
+Development Budget,ميزانية التطوير
+Development Project,مشروع تطوير
+Development Project Register,سجل مشاريع التطوير
+Development project register,سجل مشاريع التطوير
+Device IP,IP — بند واجهة
+Device Name,بند واجهة
+Device Port,بند واجهة
+Device Type,بند واجهة
+Digital Channel,رقمي قناة
+Direct,بند واجهة
+Docstatus,بند واجهة
+Documents & Integration,المستندات والتكامل
+Draft,مسودة
+E-Invoice,الفاتورة الإلكترونية
+Earning,بند واجهة
+Earnings and Deductions,بند واجهة
+Edit,تعديل
+Education,التعليم
+Email,البريد الإلكتروني
 Employee,الموظف
-Employee belongs to a different company.,موظف belongs إلى a different شركة.
-Employee Name,موظف اسم
-Employee not found.,موظف not found.
-Employees,Employees
-Employer contrib.,Employer contrib.
-Employer contributions,Employer contributions
-Employer Contributions Expense (IAS 19),Employer Contributions مصروف (IAS 19)
-End Date,تاريخ الانتهاء
-End-of-Service Provision (BS),نهاية - of - خدمة Provision (BS)
-Entitlement Policy,Entitlement سياسة
-EOS,EOS
-Evaluation Notes,Evaluation Notes
-Expense,مصروف
-Expense (P&L),مصروف (P & L)
-Expense Date,مصروف تاريخ
-Expense total,مصروف إجمالي
-Expense total (P&L),مصروف إجمالي (P & L)
-Expense Type,مصروف نوع
-Feedback,Feedback
-Filters,Filters
-From,From
-Further,Further
-GL Account,GL حساب
-GL mapping (IAS 19 / payroll accrual),GL mapping (IAS 19 payroll accrual)
-GL Override,GL Override
-GL posting date,GL posting تاريخ
-Goals Score,Goals درجة
-Gratuity (estimated),Gratuity (estimated)
-Gross pay,Gross pay
-Gross Pay,Gross Pay
-Headcount,Headcount
-Hiring Manager,Hiring مدير
-HR,HR
-HR Attendance,الموارد البشرية Attendance
-HR Attendance Mix,الموارد البشرية Attendance Mix
-HR Attendance Summary,الموارد البشرية Attendance ملخص
-HR Employee Appraisal,الموارد البشرية موظف Appraisal
-HR End of Service Settlement,الموارد البشرية نهاية of خدمة Settlement
-HR Expense Claim,الموارد البشرية مصروف Claim
-HR Headcount,الموارد البشرية Headcount
-HR Interview,الموارد البشرية Interview
-HR Leave Application,الموارد البشرية Leave طلب
-HR Leave Application Summary,الموارد البشرية Leave طلب ملخص
-HR Leave Type,الموارد البشرية Leave نوع
-HR Payroll Company Settings,الموارد البشرية Payroll شركة إعدادات
-HR Payroll Entry,الموارد البشرية Payroll قيد
-HR Payroll Run,الموارد البشرية Payroll Run
-HR Payroll Run Line,الموارد البشرية Payroll Run Line
-HR Payroll Summary,الموارد البشرية Payroll ملخص
-HR Recruitment Pipeline,الموارد البشرية Recruitment Pipeline
-HR Recruitment Request,الموارد البشرية Recruitment طلب
-HR Recruitment Request Mix,الموارد البشرية Recruitment طلب Mix
-HR Salary Advance,الموارد البشرية Salary Advance
-HR Salary Slip,الموارد البشرية Salary Slip
-HR Salary Slip Line,الموارد البشرية Salary Slip Line
-HR Salary Slip Register,الموارد البشرية Salary Slip Register
-HR Settings,الموارد البشرية إعدادات
-HR Training Record,الموارد البشرية Training سجل
-HR Training Summary,الموارد البشرية Training ملخص
-hr-analytics-dashboard,الموارد البشرية - تحليلات - لوحة معلومات
-hr-customer-portal,الموارد البشرية - عميل - بوابة
-hr-executive-dashboard,الموارد البشرية - تنفيذي - لوحة معلومات
-hr-finance-desk,الموارد البشرية - مالية - desk
-hr-operations-desk,الموارد البشرية - عمليات - desk
-Human Resources Workcenter,Human Resources Workcenter
-Interview Date,Interview تاريخ
-Interview Round,Interview Round
-Interviewer,Interviewer
-Justification,Justification
-Last basic salary (monthly),Last basic salary (monthly)
-Last basic salary is required.,Last basic salary is required.
-Leave Policy,Leave سياسة
-Leave Type,Leave نوع
-Leave Window,Leave Window
-Leaves,Leaves
-Lines,Lines
-Load omnexa_core vertical portal desk,Load omnexa أساسي vertical بوابة desk
-Load omnexa_core vertical workcenter kit,Load omnexa أساسي vertical workcenter kit
-Masters: HR Leave Type,Masters: الموارد البشرية Leave نوع
-Masters: Leave Policy,Masters: Leave سياسة
-Max Days Per Year,أقصى Days Per Year
-Monthly recovery cap,Monthly recovery cap
-More,More
+Employee Appraisal,بند واجهة
+Employee belongs to a different branch.,بند واجهة
+Employee belongs to a different company.,بند واجهة
+Employee Directory,بند واجهة
+Employee Match Field,بند واجهة
+Employee Name,الموظف الاسم
+Employee not found.,بند واجهة
+Employee Overview,الموظف نظرة عامة
+employee_code,الموظف الرمز
+Employees,بند واجهة
+Employer contrib.,بند واجهة
+Employer Contribution,بند واجهة
+Employer contributions,بند واجهة
+Employer Contributions Expense (IAS 19),بند واجهة
+Enable Employee Self-Service,بند واجهة
+Enable ISO 30414 human capital metrics in HR dashboards,ISO HR — بند واجهة
+Enable ISO 30414 Metrics,ISO — بند واجهة
+End Date,النهاية التاريخ
+End Time,بند واجهة
+End-of-Service Provision (BS),بند واجهة
+Enforce Leave Balance on Approval,بند واجهة
+Engineering Consulting,الاستشارات الهندسية
+Entitlement Policy,بند واجهة
+EOS,بند واجهة
+Erpgenex Property Mgmt,إدارة العقارات
+Erpgenex Realestate Dev,التطوير العقاري
+Erpgenex Realestate Sales,التسويق العقاري
+ERPGENEX — Core ERP,ERPGENEX — ERP الأساسي
+ERPGENEX — Dashboard,ERPGENEX — لوحة المعلومات
+Escalation Rule,قاعدة تصعيد الإيجار
+Evaluation Notes,بند واجهة
+Event,حدث
+Exceeds Expectations,بند واجهة
+Executive Dashboard,لوحة المدير التنفيذية
+Expense,المصروف
+Expense (P&L),المصروف (P&L)
+Expense Date,المصروف التاريخ
+Expense total,المصروف الإجمالي
+Expense total (P&L),المصروف الإجمالي ( P & L )
+Expense Type,المصروف النوع
+Explore this workspace,استكشف مساحة العمل
+external_reference,بند واجهة
+Factoring,التخصيم
+Feedback,بند واجهة
+Field PWA,تطبيق الميدان
+File Import,ملف استيراد
+Filters,المرشحات
+Final,نهائي
+Finance Control Exceptions,استثناءات الضوابط المالية
+Finance Control Violations,مخالفات الضوابط المالية
+Finance Controls,الضوابط المالية
+Finance Desk,بند واجهة
+Finance Engine,محرك التمويل
+Finance Group,المجموعة المالية
+Finance SoD Blocks,حظر فصل المهام (SoD)
+Finance Workcenter,مركز عمل المالية
+Fiscal Year,بند واجهة
+Fiscal Year Start Month,بند واجهة
+Fixed Assets,الأصول الثابتة
+Form,نموذج
+From,من
+from last month,بند واجهة
+Further,المزيد
+General Ledger,دفتر الأستاذ العام
+Generic TCP,بند واجهة
+GENERIC_LIMITED,بند واجهة
+Get started with Employee,بند واجهة
+Get started with HR Leave Type,HR — بند واجهة
+Get started with Leave Policy,بند واجهة
+Get started with User Branch Access,بند واجهة
+GL Account,حساب GL
+GL mapping (IAS 19 / payroll accrual),GL — بند واجهة / بند واجهة
+GL Override,GL — بند واجهة
+GL posting date,GL ترحيل التاريخ
+Global Defaults,الإعدادات العامة
+Goals Score,بند واجهة
+Governance,الحوكمة
+Governance Overview,نظرة عامة على الحوكمة
+Grace Period (Minutes),بند واجهة
+Gratuity (estimated),بند واجهة
+Gross Pay,بند واجهة
+Gross pay,بند واجهة
+Guest,زائر
+Handover & defects (snagging),التسليم والعيوب
+Handover Package,حزمة التسليم
+Headcount,بند واجهة
+Healthcare,الرعاية الصحية
+Help,مساعدة
+Hikvision,بند واجهة
+Hire,بند واجهة
+Hired,بند واجهة
+Hiring Manager,بند واجهة
+Hold,بند واجهة
+Home,الرئيسية
+HR,الموارد البشرية
+HR Attendance,الموارد البشرية الحضور
+HR Attendance Register,سجل الموارد البشرية الحضور
+HR Attendance Summary,ملخص الموارد البشرية الحضور
+HR Biometric Device,HR — بند واجهة
+HR Biometric Device Register,سجل HR — بند واجهة
+HR Biometric Punch Log,HR — بند واجهة
+HR Biometric Punch Log Register,سجل HR — بند واجهة
+HR Dashboard,لوحة الموارد البشرية
+HR Department,HR — بند واجهة
+HR Department Register,سجل HR — بند واجهة
+HR Employee,الموارد البشرية الموظف
+HR Employee Appraisal,HR — بند واجهة
+HR Employee Appraisal Register,سجل HR — بند واجهة
+HR End of Service Settlement,HR — بند واجهة
+HR Expense Claim,HR — بند واجهة
+HR Headcount,HR — بند واجهة
+HR Interview,HR — بند واجهة
+HR Job Applicant,HR — بند واجهة
+HR Leave Application,HR — بند واجهة
+HR Leave Application Summary,ملخص HR — بند واجهة
+HR Leave Balance,HR — بند واجهة
+HR Leave Type,HR — بند واجهة
+HR Manager,HR — بند واجهة
+HR Monthly Attendance Rate,الموارد البشرية شهري الحضور السعر
+HR Payroll Company Settings,إعدادات HR — بند واجهة
+HR Payroll Entry,HR — بند واجهة
+HR Payroll Register,سجل HR — بند واجهة
+HR Payroll Run,HR — بند واجهة
+HR Payroll Run Line,HR — بند واجهة
+HR Payroll Statutory Deductions Register,سجل HR — بند واجهة
+HR Payroll Summary,ملخص HR — بند واجهة
+HR Recruitment Pipeline,HR — بند واجهة
+HR Recruitment Request,HR — بند واجهة
+HR Salary Advance,HR — بند واجهة
+HR Salary Slip,HR — بند واجهة
+HR Salary Slip Line,HR — بند واجهة
+HR Salary Slip Register,سجل HR — بند واجهة
+HR Settings,إعدادات الموارد البشرية
+HR Shift Type,HR — بند واجهة
+HR Training Record,HR — بند واجهة
+HR Training Summary,ملخص HR — بند واجهة
+HR User,الموارد البشرية مستخدم
+Human Resources Workcenter,بند واجهة
+IFRS 16 Liability,التزام الإيجار IFRS 16
+Import,استيراد
+IN,IN
+In Progress,قيد التنفيذ
+In Review,In مراجعة
+Industry Solutions,حلول القطاعات
+Insights,رؤى وتحليلات
+"Insufficient leave balance. Available: {0}, Requested: {1}",بند واجهة
+International HR Standards,HR — بند واجهة
+Interview,بند واجهة
+Interview Date,بند واجهة
+Interview Round,بند واجهة
+Interviewer,بند واجهة
+Inventory & development context,المخزون وسياق التطوير
+Inventory KPI Dashboard,لوحة مؤشرات المخزون
+Inventory KPIs,مؤشرات المخزون
+Inventory Low Stock Items,أصناف منخفضة المخزون
+Inventory Reorder Needed,أصناف تحتاج إعادة طلب
+Inventory Stock Items,أصناف المخزون
+Is Group,بند واجهة
+Item,الصنف
+Job Board,بند واجهة
+Job Role,بند واجهة
+joined the organization,بند واجهة
+Journal Entry,قيد يومية
+Jump to the **Analytics Dashboard** page.,انتقل إلى صفحة **لوحة التحليلات**.
+Jump to the **Employee Self-Service** page.,انتقل إلى صفحة **بند واجهة**.
+Jump to the **Executive Dashboard** page.,انتقل إلى صفحة **لوحة المدير التنفيذية**.
+Jump to the **HR Dashboard** page.,انتقل إلى صفحة **لوحة الموارد البشرية**.
+Jump to the **Operations Desk** page.,انتقل إلى صفحة **بند واجهة**.
+Justification,بند واجهة
+KSA_EMPLOYEE_RESIGNATION,بند واجهة
+KSA_EMPLOYER_TERMINATION,بند واجهة
+Land & project charter,الأرض وميثاق المشروع
+Land Parcel,قطعة أرض
+Language,اللغة
+Last 7 Days,بند واجهة
+Last basic salary (monthly),بند واجهة
+Last basic salary is required.,بند واجهة
+Last Month,الشهر الماضي
+Last Sync,بند واجهة
+Last Week,الأسبوع الماضي
+Lead acquisition & qualification,اكتساب العملاء وتأهيلهم
+Leasing & occupancy (IFRS 16 / IPSAS rent),التأجير والإشغال (IFRS 16 / IPSAS)
+Leasing Finance,التمويل التأجيري
+Leasing Mandate,تفويض تأجير
+Leave,بند واجهة
+Leave Application,بند واجهة
+Leave application is already submitted.,بند واجهة
+Leave Balance,بند واجهة
+"Leave balance already exists for this employee, leave type and year.",بند واجهة
+Leave Management,بند واجهة
+Leave Type,بند واجهة
+Leave Window,بند واجهة
+Lines,البنود
+List,قائمة
+Location,الموقع
+Lodging,بند واجهة
+Login,تسجيل الدخول
+Logout,تسجيل الخروج
+Maintenance — service requests,الصيانة — طلبات الخدمة
+Management Agreement,اتفاقية إدارة
+Manual,يدوي
+Manufacturing,التصنيع
+Maternity Leave,بند واجهة
+Max Days Per Year,بند واجهة
+Meals,بند واجهة
+Meets Expectations,بند واجهة
+Menu,القائمة
+Mobile,الجوال
+Monthly recovery cap,بند واجهة
+More,المزيد
+Mortgage Finance,التمويل العقاري
+My work,عملي
 Name,الاسم
-Net pay,Net pay
-Net Pay,Net Pay
-Net Result,Net Result
-No Present/Remote attendance found for this employee in the pay period. Enable Skip attendance gate only if authorised.,No Present Remote attendance found لـ this موظف in the pay period. Enable Skip attendance gate only if authorised.
-Notes,Notes
-Omnexa Hr,Omnexa الموارد البشرية
-On Leave,On Leave
-Open Positions,مفتوح Positions
-Outstanding,Outstanding
-Overall Score,Overall درجة
+Needs Improvement,بند واجهة
+Net Pay,بند واجهة
+Net pay,بند واجهة
+Net Result,بند واجهة
+New,جديد
+New Joinees,بند واجهة
+New Leave Policy,بند واجهة
+New Leave Request,بند واجهة
+Night Shift,بند واجهة
+No active employees match {0}. Create Employee records or sync from Healthcare Practitioners.,بند واجهة
+No branch access for the current view scope.,بند واجهة
+No data,بند واجهة
+No employees in {0}. {1} employee(s) exist in other branches of {2} — switch to «All branches» in the top bar.,بند واجهة — بند واجهة
+No Present/Remote attendance found for this employee in the pay period. Enable Skip attendance gate only if authorised.,بند واجهة
+None,لا شيء
+Notes,ملاحظات
+Notifications,الإشعارات
+Number Card,بطاقة رقمية
+Occupancy,الإشغال
+of total,من الإجمالي
+Offer,بند واجهة
+Omnexa Accounting Settings,إعدادات محاسبة Omnexa
+Omnexa Marketplace Settings,إعدادات سوق Omnexa
+Omnexa Purchase Settings,إعدادات مشتريات Omnexa
+Omnexa Sales Settings,إعدادات مبيعات Omnexa
+Omnexa Settings,إعدادات Omnexa
+Omnexa Stock Settings,إعدادات مخزون Omnexa
+On Leave,بند واجهة
+Ongoing Trainings,بند واجهة
+Only HR staff can approve leave.,HR — بند واجهة
+Only HR staff can approve or reject leave.,HR — بند واجهة
+Only HR staff can reject leave.,HR — بند واجهة
+Only submitted applications can be approved.,بند واجهة
+Only submitted applications can be rejected.,بند واجهة
+Open,مفتوح
+Open Analytics Dashboard,لوحة فتح التحليلات
+Open Employee Self-Service,بند واجهة
+Open Executive Dashboard,لوحة بند واجهة
+Open HR Dashboard,لوحة فتح الموارد البشرية
+Open Operations Desk,بند واجهة
+Open Positions,بند واجهة
+Open report Compliance Exceptions Dashboard,فتح تقرير لوحة استثناءات الامتثال
+Operating Scenarios,سيناريوهات التشغيل
+Operational Risk,المخاطر التشغيلية
+Operations Desk,بند واجهة
+Other,أخرى
+OUT,بند واجهة
+Outstanding,بند واجهة
+Overall Score,بند واجهة
+Overdue,متأخر
 Overview,نظرة عامة
-Owner,Owner
+Owner,المالك
+Owner reporting & trust accounting,تقارير الملاك والحسابات الائتمانية
+Owner Statement,كشف حساب المالك
 Paid,مدفوع
-Pay period,Pay period
-Payment Entry,دفعة قيد
-Payment Reference,دفعة Reference
-Payroll accrual — period {0} to {1},Payroll accrual — period { 0 } إلى { 1 }
-Payroll Entry,Payroll قيد
-Payroll Liability (net + deductions payable),Payroll Liability (net + deductions payable)
-Payroll Month,Payroll Month
-Payroll period,Payroll period
-Payroll Period,Payroll Period
-Payroll Run,Payroll Run
-Payroll Settings,Payroll إعدادات
-Payroll Tax / Statutory Payable,Payroll Tax قانوني Payable
-Period (YYYY-MM),Period (YYYY - MM)
-Period End,Period نهاية
-Period End cannot be before Period Start.,Period نهاية cannot be before Period بداية.
-Period Start,Period بداية
-Planning,Planning
-Policies,Policies
-Posting,Posting
-Posting Date,Posting تاريخ
-Present,Present
-Productive attendance %,Productive attendance%
-Provider,Provider
-Rating Band,Rating Band
-Reason,Reason
-Recommendation,Recommendation
-Records,Records
-Recovered cannot exceed advance amount.,Recovered cannot exceed advance مبلغ.
-Recovered to Date,Recovered إلى تاريخ
-Recruitment,Recruitment
-Recruitment Request,Recruitment طلب
-Remarks,Remarks
-Remote,Remote
-Request Date,طلب تاريخ
-Requests,طلبات
-Review Period,Review Period
-Row {0}: Salary Slip company mismatch.,Row { 0 }: Salary Slip شركة mismatch.
-Row {0}: Salary Slip must be submitted.,Row { 0 }: Salary Slip must be submitted.
-Row {0}: Salary Slip not found.,Row { 0 }: Salary Slip not found.
-Salary & Cash Benefits Expense,Salary & نقدية Benefits مصروف
-Salary Advance,Salary Advance
-Salary Advance Clearing,Salary Advance Clearing
-Salary components,Salary components
-Salary expense and payroll liability GL accounts are required.,Salary مصروف و payroll liability GL حسابات are required.
-Salary Slip,Salary Slip
-Salary slips,Salary slips
-Schedule,Schedule
-Schedule and Outcome,Schedule و Outcome
-Scheme,Scheme
-Score,درجة
-Scores,Scores
-Service days,خدمة days
-Skip attendance gate,Skip attendance gate
-Start Date,بداية تاريخ
+Parent Department,بند واجهة
+Pay period,سداد الفترة
+Payment Entry,سند قبض/صرف
+Payment Plan Item,بند خطة السداد
+Payment Reference,السداد المرجع
+Payroll accrual — period {0} to {1},بند واجهة — الفترة { 0 } إلى { 1 }
+Payroll Entry,بند واجهة
+Payroll Liability (net + deductions payable),بند واجهة
+Payroll linkage,بند واجهة
+Payroll Month,بند واجهة
+Payroll Period,بند واجهة
+Payroll period,بند واجهة
+Payroll Run,بند واجهة
+Payroll Settings,إعدادات بند واجهة
+Payroll Tax / Statutory Payable,بند واجهة / بند واجهة
+Pending,قيد الانتظار
+Pending Days,بند واجهة
+Period (YYYY-MM),بند واجهة
+Period End,الفترة النهاية
+Period End cannot be before Period Start.,بند واجهة
+Period Start,الفترة بدء
+Permit Milestone,معلم التصريح
+Planned,مخطط
+Planning,بند واجهة
+Platform & Administration,المنصة والإدارة
+PMC Lease Liability Schedule,جدول التزام الإيجار IFRS 16
+PMC Leasing Mandate,تفويض تأجير
+PMC Management Agreement,اتفاقية إدارة
+PMC Management Fee Summary,ملخص رسوم الإدارة
+PMC Occupancy Summary,ملخص الإشغال
+PMC Owner Statement,كشف حساب المالك
+PMC Owner Statement Register,سجل كشوف الملاك
+PMC Property,عقار
+PMC Property Unit,وحدة عقارية
+PMC Rent Aging,أعمار الإيجارات
+PMC Rent Billing Register,سجل فوترة الإيجار
+PMC Rent Roll,سجل الإيجارات
+PMC Rental Contract Register,سجل عقود الإيجار
+Portfolio & asset registry,المحفظة وسجل الأصول
+Posting,ترحيل
+Posting Date,ترحيل التاريخ
+Present,حاضر
+Present Today,حاضر اليوم
+Processed,مُعالج
+Productive attendance %,بند واجهة
+Profile,الملف الشخصي
+Profit and Loss,الأرباح والخسائر
+Project EV,القيمة المكتسبة للمشروع
+Projects & Services,المشاريع والخدمات
+Projects PM,إدارة المشاريع
+Property,عقار
+Property Management,إدارة العقارات
+Property Sales Booking Register,سجل حجوزات البيع
+Property Sales Lead,عميل مبيعات عقارية
+Provider,مزود
+Punch Datetime,بند واجهة
+Punch Type,بند واجهة
+Purchase Invoice,فاتورة شراء
+Purchase Register,سجل المشتريات
+Rating Band,بند واجهة
+Raw User ID,ID — بند واجهة
+RE BOQ,جدول كميات التطوير
+RE Development,التطوير العقاري
+RE Handover Package,حزمة التسليم
+RE Marketing,التسويق العقاري
+RE Permit Milestone,معلم التصريح
+RE Project EV,القيمة المكتسبة للمشروع
+RE Subcontract Commitment,التزام مقاول باطن
+RE Unit Inventory,مخزون وحدات التطوير
+RE unit inventory (sales),مخزون وحدات البيع
+RE Unit Inventory Overview,نظرة عامة على مخزون الوحدات
+Real Estate,العقارات
+Reason,السبب
+Recommendation,التوصية
+Records,بند واجهة
+Recovered cannot exceed advance amount.,بند واجهة
+Recovered to Date,بند واجهة
+Recruitment Request,بند واجهة
+Referral,التحويل
+Refresh,تحديث
+Reject,بند واجهة
+Rejected,مرفوض
+Reload,إعادة تحميل
+Remarks,ملاحظات
+Remote,عن بُعد
+Rent Aging,أعمار الإيجارات
+Rent billing register,سجل فوترة الإيجار
+Rent Billing Run,تشغيل فوترة الإيجار
+Rent Roll,سجل الإيجارات
+Rental Contract,عقد إيجار
+Rental contract register,سجل عقود الإيجار
+Report,تقرير
+Request Date,بند واجهة
+Requests,بند واجهة
+Reservation register,سجل الحجوزات
+Reservations & unit holds,الحجوزات وحجز الوحدات
+Resignations,بند واجهة
+Restaurant,المطاعم
+Resume,بند واجهة
+"Return here for shortcuts, charts, and lists for **Audit & Compliance**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **التدقيق والامتثال**.
+"Return here for shortcuts, charts, and lists for **Core ERP**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **ERP الأساسي**.
+"Return here for shortcuts, charts, and lists for **HR**.",ارجع هنا للاختصارات والمخططات والقوائم لـ **الموارد البشرية**.
+Review Period,مراجعة الفترة
+Row {0}: Salary Slip company mismatch.,بند واجهة
+Row {0}: Salary Slip must be submitted.,يجب أن بند واجهة be مُرسل.
+Row {0}: Salary Slip not found.,بند واجهة
+Salary & Cash Benefits Expense,بند واجهة و بند واجهة
+Salary Advance,بند واجهة
+Salary Advance Clearing,بند واجهة
+Salary components,بند واجهة
+Salary expense and payroll liability GL accounts are required.,GL — بند واجهة
+Salary Slip,بند واجهة
+Salary slips,بند واجهة
+Sales Booking,حجز بيع
+Sales booking register,سجل حجوزات البيع
+Sales Commission Accrual,استحقاق عمولات المبيعات
+Sales Commission Schedule,جدول عمولات المبيعات
+Sales Invoice,فاتورة مبيعات
+Sales Lead,عميل محتمل
+Sales Portal,بوابة المبيعات
+Sales Register,سجل المبيعات
+Save,حفظ
+Schedule,الجدول
+Schedule and Outcome,بند واجهة
+Scheduled,مجدول
+Scheduled Trainings,بند واجهة
+Scheme,بند واجهة
+Score,بند واجهة
+Scores,بند واجهة
+Screening,فحص
+Search or type a command,ابحث أو اكتب أمرًا
+Search or type a command ({0}),ابحث أو اكتب أمرًا ({0})
+Select a company first.,اختيار a الشركة أول.
+Sell,المبيعات
+Serial Number,بند واجهة
+Service days,بند واجهة
+Services,الخدمات
+Settings,الإعدادات
+Shift Name,بند واجهة
+Shortcut,اختصار
+Sick Leave,بند واجهة
+Skip attendance gate,بند واجهة
+SME Microfinance,التمويل متناهي الصغر
+SME Retail Finance,تمويل المنشآت والتجزئة
+Source,المصدر
+Start Date,تاريخ البدء
+Start Time,بند واجهة
 Status,الحالة
-Status Bar,حالة Bar
-Supporting Processes: HR Interview,Supporting Processes: الموارد البشرية Interview
-Supporting Processes: HR Training Record,Supporting Processes: الموارد البشرية Training سجل
-Target Hire Date,Target Hire تاريخ
-Taxable (employee),Taxable (موظف)
-Termination cannot be before joining.,Termination cannot be before joining.
-Termination Date,Termination تاريخ
+Stock,المخزون
+Subcontract,مقاول باطن
+Submit,إرسال
+Submitted,مُرسل
+submitted a leave request,بند واجهة
+Supplier,المورد
+Supplies,بند واجهة
+Supporting Attachment,مرفق داعم
+Sync Interval (Minutes),بند واجهة
+System Manager,مدير النظام
+Target Hire Date,بند واجهة
+Task List,قائمة المهام
+Taxable (employee),بند واجهة
+Technical,بند واجهة
+Termination cannot be before joining.,بند واجهة
+Termination Date,بند واجهة
+the current scope,بند واجهة
+This Month,هذا الشهر
+this month,بند واجهة
+This Week,هذا الأسبوع
+Timezone,المنطقة الزمنية
 To,إلى
-Total Cost,إجمالي تكلفة
-Total Days,إجمالي Days
-Total deductions,إجمالي deductions
-Total payroll expense must be greater than zero.,إجمالي payroll مصروف must be greater than zero.
-Total Records,إجمالي Records
-Totals,Totals
-Training,Training
-Training Title,Training عنوان
+To date cannot be before from date.,بند واجهة
+Today,اليوم
+ToDo,مهمة
+Tomorrow,بند واجهة
+Total Cost,الإجمالي التكلفة
+Total Days,بند واجهة
+Total deductions,بند واجهة
+Total Employees,بند واجهة
+Total Participants,بند واجهة
+Total payroll expense must be greater than zero.,يجب أن بند واجهة بند واجهة.
+Total Records,بند واجهة
+Total Working Days,بند واجهة
+Totals,بند واجهة
+Tourism,السياحة
+Trading,التجارة
+Trading & Manufacturing,التجارة والتصنيع
+Training,بند واجهة
+Training Title,بند واجهة
+Training: Leadership Skills,بند واجهة
+Transport,بند واجهة
+Travel,بند واجهة
+Trial Balance,ميزان المراجعة
 Type,النوع
-Workforce overview,Workforce نظرة عامة
-Working Hours,Working Hours
-{0}: GL Account belongs to another company.,{ 0 }: GL حساب belongs إلى another شركة.
-📊 Reports,📊 تقارير
-📌 Operations,📌 عمليات
+UAE_LIMITED,بند واجهة
+UAE_UNLIMITED,بند واجهة
+Unit,وحدة
+Unit Inventory,مخزون الوحدات
+Unit inventory & sales readiness,مخزون الوحدات وجاهزية البيع
+Unit inventory overview,نظرة عامة على مخزون الوحدات
+Unit Reservation,حجز وحدة
+Unit Reservation Register,سجل حجز الوحدات
+Unknown,غير معروف
+Unsatisfactory,بند واجهة
+Update,تحديث
+Used Days,بند واجهة
+Vehicle Finance,تمويل المركبات
+Warehouse,المستودع
+"Welcome back, {0}",بند واجهة
+Withdrawn,بند واجهة
+Working Hours,بند واجهة
+Working Hours Threshold,بند واجهة
+Workspace,مساحة العمل
+Workspaces,مساحات العمل
+Yesterday,أمس
+You are ready to work in Core ERP.,أنت جاهز للعمل في ERP الأساسي.
+You can only manage your own leave applications.,بند واجهة
+You can only submit your own leave application.,بند واجهة
+ZKTeco,بند واجهة
+{0}: GL Account belongs to another company.,GL — بند واجهة
+✅ Handover,✅ التسليم
+🎯 CRM,🎯 إدارة العملاء
+🏗️ Projects,🏗️ المشاريع
+🏢 Organization,🏢 التنظيم والإعداد
+🏢 Organization & Setup,🏢 التنظيم والإعداد
+🏢 Portfolio,🏢 المحفظة العقارية
+👥 HR & Users,👥 الموارد البشرية والمستخدمون
+💰 Billing · Finance · ERP,💰 الفوترة · المالية · ERP
+💰 Commissions,💰 العمولات
+💰 Finance & ERP,💰 المالية · ERP
+💰 Owner & CAM,💰 المالك والمصاريف المشتركة
+📈 Reports,📈 التقارير
+📊 Analytics,📊 التحليلات
+📊 Dashboards,📊 لوحات المعلومات
+📊 Dashboards & Portals,📊 لوحات المعلومات والبوابات
+📊 Dashboards & portals,📊 لوحات المعلومات والبوابات
+📋 Commercial,📋 التجاري
+📋 Leasing,📋 التأجير
+📋 Operations,📋 العمليات
+📐 BOQ & inventory,📐 جدول الكميات والمخزون
+📦 Inventory & Supply,📦 المخزون والتوريد
+🔗 Integration,🔗 التكامل
+🚚 Field operations,🚚 العمليات الميدانية
+🛡️ Compliance,🛡️ الامتثال

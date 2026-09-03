@@ -1,26 +1,16 @@
 {
- "content": null,
- "creation": "2026-08-25 17:59:07.930778",
- "docstatus": 0,
- "doctype": "Page",
- "idx": 0,
- "modified": "2026-08-25 19:03:26.682326",
- "modified_by": "Administrator",
- "module": "Omnexa Hr",
- "name": "hr-executive-dashboard",
- "owner": "Administrator",
- "page_name": "hr-executive-dashboard",
- "roles": [
-  {
-   "role": "System Manager"
-  },
-  {
-   "role": "Company Admin"
-  }
- ],
- "script": null,
- "standard": "Yes",
- "style": null,
- "system_page": 0,
- "title": "Executive Dashboard"
+	"doctype": "Page",
+	"module": "Omnexa Hr",
+	"name": "hr-executive-dashboard",
+	"page_name": "hr-executive-dashboard",
+	"standard": "Yes",
+	"title": "Executive Dashboard",
+	"roles": [
+		{
+			"role": "System Manager"
+		},
+		{
+			"role": "Company Admin"
+		}
+	]
 }

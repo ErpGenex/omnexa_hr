@@ -1,0 +1,20 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "disabled": 0,
+ "doctype": "Report",
+ "filters": [],
+ "is_standard": "Yes",
+ "module": "Omnexa Hr",
+ "name": "HR Biometric Device Register",
+ "prepared_report": 0,
+ "query": "",
+ "ref_doctype": "HR Biometric Device",
+ "report_name": "HR Biometric Device Register",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
